@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* VARIABLES */
+
+:root {
+  --hl-color: #3aafa9;
+  --hl-color-dark: #2b7a78;
+  --near-black: #17252a;
+  --fg-color: #feffff;
+  --fg-color-darker: #f2f2f2;
+  --hl-color-light: #e5f5ee;
+  --link-color: #43acdc;
+  --red: #e83939;
+  --red-darker: #bd1b1b;
+}
+
+
+/* CUSTOM CLASSES */
+
+.text-white {
+  color: var(--fg-color);
+}
+
+.text-black {
+  color: var(--near-black);
+}
+
+.custom-card-border {
+  border: 2px solid var(--hl-color);
+}
+
+.darken-image {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-nav-btn {
+  padding: 2px 20px;
+  background-color: transparent;
+}
+
+
+/* GENERAL */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#home {
+  background-color: var(--fg-color);
+  margin-top: 100vh;
+}
+
+body * {
+  border-radius: 0;
+  font-family: "Lora", serif;
+}
+
+body {
+  padding-top: 56px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", serif;
+}
+
+a {
+  color: var(--hl-color-dark);
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 50px;
+  padding: 5px 20px;
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+  border: 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--hl-color-dark);
+}
+
+::selection {
+  /* Custom highlight Color */
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+
+/* Navbar */
+
+#navbar {
+  background-color: var(--hl-color-dark);
+}
+
+
+/* dropdown for in-page nav */
+
+#navbar .dropdown-toggle {
+  color: var(--fg-color-darker);
+}
+
+#navbar .dropdown-toggle:hover {
+  color: var(--fg-color);
+}
+
+#navbar .dropdown-menu a:hover {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+
+#navbar .dropdown-menu {
+  background-color: var(--fg-color);
+  color: var(--hl-color);
+  border: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#navbar .dropdown-item {
+  color: var(--near-black);
+}
+
+
+/* Off-screen menu */
+
+#navbar .offcanvas-header {
+  background-color: var(--hl-color-dark);
+  color: var(--fg-color);
+}
+
+#navbar .offcanvas-body {
+  background-color: var(--hl-color-dark);
+  color: var(--fg-color);
+}
+
+.dropdown-item {
+  --bs-dropdown-link-disabled-color: var(--hl-color);
+}
+
+
+/* HEADER */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-color: var(--hl-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#header {
+  background-color: var(--hl-color);
+  padding: 0rem 0;
+  position: fixed;
+  z-index: -1;
+  padding-top: 40px;
+  /* calc used to remove the header height */
+  height: calc(100vh - 40px);
+  width: 100vw;
+  padding: 25vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header h1 {
+  color: var(--fg-color);
+}
+
+#header h2 {
+  color: var(--near-black);
+  letter-spacing: 1rem;
+}
+
+#header .fa-shield-heart {
+  font-size: 14rem;
+  color: var(--fg-color);
+  margin: 15px 0;
+}
+
+
+/* MAIN */
+
+.card {
+  background-color: var(--fg-color-darker);
+}
+
+.card-overlay img {
+  aspect-ratio: 9 / 4;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-overlay img:hover {
+  transform: scale(1.1);
+}
+
+.card-header,
+.card-footer {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+.card-header a,
+.card-footer a {
+  color: var(--fg-color);
+}
+
+#programmes p {
+  font-size: 0.95rem;
+}
+
+section .btn {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  left: 10px;
+}
+
+section {
+  padding-top: 50px;
+}
+
+#home .col-lg-8 p {
+  font-size: 0.9rem;
+}
+
+
+/* LEARNING PAGE */
+
+.accordion {
+  background-color: var(--hl-color-light);
+}
+
+.accordion button {
+  background-color: var(--hl-color-light);
+  color: var(--near-black);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+.accordion li {
+  text-align: left;
+}
+
+
+/* INFO */
+
+#info .card {
+  /* space for button */
+  padding-bottom: 29px;
+}
+
+
+/* Caring page */
+
+.caring-img {
+  aspect-ratio: 3/1;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.caring-img img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.caring-img img:hover {
+  transform: scale(1.03);
+}
+
+.caring-cards .card {
+  background-color: var(--fg-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 0;
+}
+
+.profile {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+  /* height: 400px;
+  width: 200px */
+}
+
+
+/* Testimonials */
+
+.testimonial {
+  background-color: var(--fg-color-darker);
+  color: var(--fg-color);
+  /* height: 400px;
+  width: 300px */
+}
+
+.testimonial {
+  color: var(--near-black);
+}
+
+#testimonials div div.row {
+  padding-top: 40px !important;
+}
+
+
+/* Nav Tabs */
+
+.nav-tabs button {
+  color: var(--hl-color-dark);
+}
+
+#myTab .active {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+#myTab button:hover {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+.nav-item {
+  border: 0;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid var(--hl-color);
+}
+
+.nav-tabs li {
+  margin-right: 2px;
+}
+
+.tab-content {
+  border: 2px solid var(--hl-color);
+  margin-top: 0px;
+}
+
+
+/* FOOTER */
+
+#footer {
+  background-color: var(--hl-color-dark);
+  color: var(--fg-color);
+  padding: 3rem;
+}
+
+#footer a {
+  color: var(--fg-color-darker);
+  transition: 0.2s ease-in-out;
+}
+
+#footer a:hover {
+  color: var(--hl-color);
+}
+
+#footer .btn-primary:hover {
+  background-color: var(--fg-color);
+  color: var(--near-black);
+}
+
+#footer .modal-footer .btn-primary:hover {
+  background-color: var(--hl-color-dark);
+  color: var(--fg-color);
+}
+
+#footer .btn-secondary {
+  background-color: var(--red);
+}
+
+#footer .btn-secondary:hover {
+  background-color: var(--red-darker);
+}
+
+#footer h4 {
+  letter-spacing: 0.5rem;
+}
+
+#footer section h2 {
+  padding-bottom: 10px;
+}
+
+#footer .btn-secondary {
+  background-color: var(--red);
+}
+
+#footer .btn-secondary:hover {
+  background-color: var(--red-darker);
+}
+
+#footer .btn-close {
+  background-color: var(--fg-color);
+  border-radius: 50%;
+}
+
+
+/* Modal */
+
+#footer .modal,
+#footer select,
+#footer option {
+  color: var(--near-black);
+  border: 0;
+}
+
+#footer .modal-header {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+#footer input,
+#footer select,
+#footer option {
+  border-radius: 50px;
+  border: 0;
+  padding: 5px 20px;
+  background-color: var(--fg-color);
+  color: var(--near-black);
+  transition: 0.2s ease-in-out;
+}
+
+#footer textarea {
+  transition: 0.2s ease-in-out;
+  border: 0;
+}
+
+#footer input:hover,
+#footer select:hover,
+#footer textarea:hover {
+  /* box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.15) !important; */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#footer input:focus,
+#footer select:focus,
+#footer textarea:focus {
+  box-shadow: 0 0.1rem 0.3rem var(--hl-color) !important;
+}
+
+@media screen and (min-width: 320px) {
+  #footer h5 {
+    margin-top: 2rem;
+  }
+  #footer {
+    padding: 2rem 0;
+  }
+  #header h1 {
+    font-size: 3.5rem;
+  }
+  #header h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #programmes img {
+    /* Overrides bootstrap */
+    border-bottom-left-radius: 0rem !important;
+  }
+  #accordionFlushExample {
+    text-align: center;
+  }
+  #header h1 {
+    font-size: 3.5rem;
+  }
+  #header h2 {
+    font-size: 2.8rem;
+  }
+  #home .col-lg-8 p {
+    font-size: 0.8rem;
+  }
+  #home .col-lg-4 img {
+    /* Overrides bootstrap */
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #header h1 {
+    font-size: 3.5rem;
+  }
+  #header h2 {
+    font-size: 3rem;
+  }
+  #home .col-lg-4 img {
+    /* Overrides bootstrap */
+    border-bottom-left-radius: 0 !important;
+  }
+  #home .col-lg-8 p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {}
+
+
+/* TEST */

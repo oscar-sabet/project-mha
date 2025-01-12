@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Mental Health Awareness</title>
+  <!-- Meta -->
+  <meta name="description" content="Mental health has a significant impact on people’s lives and wellbeing. To support people with mental illnesses, we need better data to understand them.">
+  <meta name="keywords" content="mental health, mental illness, wellbeing, support, data, understanding">
+  <meta name="author" content="Oscar Sabet, Code Institute">
+  <meta name="robots" content="index, follow">
+  <!-- Bootstrap 5 CSS -->
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>
+  <!-- custom CSS -->
+  <link rel='stylesheet' href='assets/css/style.css'>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <i class="fa-solid fa-shield-heart"></i> MHA | Home
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-shield-heart"></i> MHA | Home</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Navigate Page
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html#info">Learn About Mental Health</a></li>
+                <li><a class="dropdown-item" href="index.html#testimonials">MHA Testimonials</a></li>
+                <li><a class="dropdown-item" href="index.html#looking-after">Mental Health Caring</a></li>
+                <li><a class="dropdown-item" href="index.html#statistics">Mental Health Statistics</a></li>
+              </ul>
+            </li>
+            <!-- Links -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learning.html">Learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="caring.html">Caring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Statistics</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="header" class="container-fluid shadow ">
+    <div class="row text-center justify-content-center">
+      <div class="col-12">
+        <h1 class="display-4">Mental Health Awareness</h1>
+        <i class="fa-solid fa-shield-heart"></i>
+        <h2 class="display-6">Every Mind Matters</h2>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="home" class="shadow">
+
+    <!-- SECTION Information -->
+    <section id="info" class="container text-center d-flex justify-content-between">
+      <div class="row d-flex justify-content-between">
+        <div class="col-12">
+          <h2 class="display-1">Learn about mental health</h2>
+        </div>
+        <div class="col-12">
+          <p>
+            Explore our content and resources designed to give you more information about mental health and mental health problems, how to look after your mental health and supporting someone else with their mental health, and helping prevent mental ill-health from
+            developing in the first place.
+          </p>
+          <p>
+            Sometimes it will seem obvious when someone is going through a hard time, but there is no simple way of knowing if they have a mental health problem. Sometimes you don’t need to know. It’s more important to respond sensitively to someone who seems troubled
+            than to find out whether or not they have a diagnosis.
+          </p>
+          <p>
+            Although certain symptoms are common with specific mental health problems, no two people behave the same way when unwell. You may notice changes in their behaviour or mood if you know the person well.
+          </p>
+        </div>
+
+        <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+          <div class="card shadow bg-transparent col-12 border-0">
+            <div class="card-header shadow border-0 rounded-top-1">
+              <h5 class="card-title pt-2">Factors that affect mental health</h5>
+            </div>
+            <div class="card-body">
+              <!-- <h5 class="card-title">Special title treatment</h5> -->
+              <p class="card-text">
+                Learn more about the different biological, psychological, and social factors that can impact your mental health.
+              </p>
+              <a class="btn btn-primary shadow" href="learning.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+          <div class="card shadow col-12 bg-transparent border-0">
+            <div class="card-header shadow border-0 rounded-top-1">
+              <h5 class="card-title pt-2"> Getting help for your mental health</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Learn more about the different biological, psychological, and social factors that can impact your mental health.
+              </p>
+              <a class="btn btn-primary shadow" href="learning.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div rounded-1 col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+          <div class="card rounded-1 shadow col-12 bg-transparent border-0">
+            <div class="card-header shadow border-0 rounded-top-1">
+              <h5 class="card-title pt-2">Mental health within different communities</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Learn more about the different biological, psychological, and social factors that can impact your mental health.
+              </p>
+              <a class="btn btn-primary shadow" href="learning.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+          <div class="card rounded-1 shadow col-12 bg-transparent border-0">
+            <div class="card-header shadow border-0 rounded-top-1">
+              <h5 class="card-title pt-2">Mental health within different communities</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Learn more about the different biological, psychological, and social factors that can impact your mental health.
+              </p>
+              <a class="btn btn-primary shadow" href="learning.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION Testimonials -->
+    <section id="testimonials" class="container text-center d-flex justify-content-between">
+      <div class="row d-flex justify-content-between">
+        <div class="col-12">
+          <h2 class="display-1">Testimonials</h2>
+        </div>
+
+        <div class="col-12">
+          <p>
+            Mental health is an essential part of people’s lives and society. Poor mental health affects our well-being, our ability to work, and our relationships with friends, family, and community.
+          </p>
+          <p>
+            Mental health conditions are not uncommon. Hundreds of millions suffer from them yearly, and many more do over their lifetimes. It’s estimated
+          </p>
+        </div>
+        <div class="row">
+
+          <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+            <div class="card shadow bg-transparent col-12 border-0 h-100">
+              <div class="card-header shadow border-0 rounded-top-1">
+                <h5 class="card-title pt-2">Michael Brown</h5>
+              </div>
+              <div class="card-body">
+                <img src="assets/images/freepik__profile-picture-face-front-on__10998.jpeg" alt="Profile Picture" class="img-fluid rounded-circle shadow xmy-2" />
+
+                <p class="card-text border-top mt-3 pt-2 pb-3">
+                  Living with bipolar disorder has been a rollercoaster, but with the right support and resources, I've learned to manage it effectively. The mental health awareness website has been a valuable resource for me, providing practical tips and a sense of community.
+                  I hope my story can inspire others to seek help and know that they are not alone.
+                </p>
+                <a class="btn btn-primary shadow" href="testimonials.html#testimonial#1">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+            <div class="card shadow bg-transparent col-12 border-0 h-100">
+              <div class="card-header shadow border-0 rounded-top-1">
+                <h5 class="card-title pt-2">Emily Johnson</h5>
+              </div>
+              <div class="card-body">
+                <img src="assets/images/freepik__profile-picture-face-front-on__10999.jpeg" alt="Profile Picture" class="img-fluid rounded-circle shadow xmy-2" />
+
+                <p class="card-text border-top mt-3 pt-2 pb-3">
+                  Coping with PTSD has been a difficult journey, but with the right support and resources, I've learned to manage it effectively. The mental health awareness website has been a valuable resource for me, providing practical tips and a sense of community.
+                  I hope my story can inspire others to seek help and know that they are not alone.
+                </p>
+                <a class="btn btn-primary shadow" href="testimonials.html#testimonial#2">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+            <div class="card shadow bg-transparent col-12 border-0 h-100">
+              <div class="card-header shadow border-0 rounded-top-1">
+                <h5 class="card-title pt-2">Michael Brown</h5>
+              </div>
+              <div class="card-body">
+                <img src="assets/images/freepik__profile-picture-face-front-on__11000.jpeg" alt="Profile Picture" class="img-fluid rounded-circle shadow xmy-2" />
+
+                <p class="card-text border-top mt-3 pt-2 pb-3">
+                  Dealing with anxiety has been a tough journey, but finding the right resources and support has made a significant difference. The mental health awareness website has been a crucial tool in my journey, offering practical advice and a supportive community.
+                  I hope my story encourages others to seek help and understand that they are not alone.
+                </p>
+                <a class="btn btn-primary shadow" href="testimonials.html#testimonial#3">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
+            <div class="card shadow bg-transparent col-12 border-0 h-100">
+              <div class="card-header shadow border-0 rounded-top-1">
+                <h5 class="card-title pt-2">Michael Brown</h5>
+              </div>
+              <div class="card-body">
+                <img src="assets/images/freepik__profile-picture-face-front-on__11001.jpeg" alt="Profile Picture" class="img-fluid rounded-circle shadow xmy-2" />
+
+                <p class="card-text border-top mt-3 pt-2 pb-3">
+                  The mental health awareness website has been an invaluable resource for me, and I am grateful for the support and information it provides. I encourage anyone who is struggling with their mental health to explore the website and take advantage of the resources
+                  available. </p>
+                <a class="btn btn-primary shadow" href="testimonials.html#testimonial#4">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION Caring -->
+    <section id="looking-after" class="container text-center d-flex justify-content-between">
+      <div class="row d-flex justify-content-between">
+        <div class="col-12">
+          <h2 class="display-1">Caring With Mental Health</h2>
+          <p>
+            Caring for mental health is crucial for maintaining overall well-being. It involves recognizing the importance of mental health and taking proactive steps to nurture it. This can include practices such as mindfulness, regular exercise, and seeking professional
+            help when needed.
+          </p>
+          <p>
+            When looking after your own mental health, it's essential to be aware of your emotions and stress levels. Engaging in activities that bring joy and relaxation can help manage stress and improve mental health. Additionally, maintaining a healthy lifestyle
+            with proper nutrition and sleep is vital.
+          </p>
+          <p>
+            Supporting someone else's mental health requires empathy and understanding. Listening without judgment and offering a safe space for them to express their feelings can be incredibly beneficial. Encouraging them to seek professional help if needed and
+            providing information about available resources can also make a significant difference.
+          </p>
+          <p>
+            This section provides valuable information and guidance on how to care for mental health effectively. Whether you are focusing on your own mental health or supporting someone else, the resources and tips provided here aim to help you navigate the challenges
+            and promote mental well-being.
+          </p>
+        </div>
+
+        <div class="card-div col-12 col-md-12 col-lg-6 col-xl-6 p-2">
+          <div class="card card-overlay shadow border-0 rounded-1 bg-transparent">
+            <img src="assets/images/helping-loved-one.webp" class="card-img rounded-1" alt="Helping a loved one">
+            <div class="card-img-overlay bg-transparent text-white">
+              <h5 class="card-title bg-transparent">Caring For Your Mental Health</h5>
+              <p class="card-text bg-transparent">
+                Discover ways to take care of your own mental health and maintain a balanced lifestyle.
+              </p>
+              <a class="btn btn-primary shadow" href="caring.html#caring-self">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div rounded-1 col-12 col-md-12 col-lg-6 col-xl-6 p-2">
+          <div class="card card-overlay shadow border-0 rounded-1 bg-transparent">
+            <img src="assets/images/suicidal-thoughts.webp" class="card-img rounded-1" alt="Helping a loved one">
+            <div class="card-img-overlay bg-transparent text-white">
+              <h5 class="card-title bg-transparent">Caring For Others Mental Health</h5>
+              <p class="card-text bg-transparent">
+                Whether they are a friend, family member or colleague, there are many ways to support somebody you care about.
+              </p>
+              <a class="btn btn-primary shadow" href="caring.html#caring-others">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION Statistics -->
+    <section id="statistics" class="container text-center d-flex justify-content-between">
+      <div class="row d-flex justify-content-between p-2">
+        <div class="col-12">
+          <h2 class="display-1">Mental Health Statistics</h2>
+        </div>
+
+        <div class="col-12">
+          <p>
+            Mental health is an essential part of people’s lives and society. Poor mental health affects our well-being, our ability to work, and our relationships with friends, family, and community.
+          </p>
+          <p>
+            Mental health conditions are not uncommon. Hundreds of millions suffer from them yearly, and many more do over their lifetimes. It’s estimated that 1 in 3 women and 1 in 5 men will experience major depression in their lives. Other conditions, such as
+            schizophrenia and bipolar disorder, are less common but still have a large impact on people’s lives.
+          </p>
+          <p>
+            Mental illnesses are treatable, and the impact they have can be reduced. Despite this, treatment is often lacking or poor quality, and many feel uncomfortable sharing their symptoms with healthcare professionals or people they know. This also makes it
+            difficult to estimate the actual prevalence of mental illnesses.
+          </p>
+          <p>
+            To support them, it’s essential to have good data to understand these conditions – how, when, and why they occur, how many people are affected by them, and how they can be treated effectively and safely.
+          </p>
+          <p>
+            On this page, we show data on the prevalence of mental illnesses and their burden, and people’s attitudes toward mental health.
+          </p>
+        </div>
+
+        <div class="card card-img-l p-2 col-12 col-xxl-6 mb-3 rounded-1 bg-transparent border border-0 p-0">
+          <div class="row g-0 shadow rounded-end-0">
+            <div class="card-header rounded-top-1 border-0 shadow col-12">
+              <h5 class="card-title rounded-0 pt-2">Mental Health Statistics</h5>
+            </div>
+            <div class="col-md-6 col-lg-8 col-xxl-6 p-2">
+              <p class="card-text mt-2 text-center">
+                Your treatment depends on the type of mental illness you have, its severity and what works best for you. In many cases, a combination of treatments works best.
+              </p>
+              <!-- <p>
+                If you have a mild mental illness with well-controlled symptoms, treatment from your primary care provider may be sufficient. This is especially important for severe mental illnesses, such as schizophrenia.
+              </p> -->
+              <p style="padding-bottom: 29px;">
+                The defining symptoms for each mental illness are detailed in the Diagnostic and Statistical Manual of Mental Disorders (DSM-5), published by the American Psychiatric Association. This manual is used by mental health professionals to diagnose mental conditions
+                and by insurance companies to reimburse for treatment.
+                <a class="btn btn-primary shadow sticky-bottom m-2" href="statistics.html#statistics">Learn
+                  More</a>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
+              <img src="assets/images/Treatment.webp" class="img-fluid shadow rounded-bottom-1" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-img-l p-2 col-12 col-xxl-6 mb-3 rounded-1 bg-transparent border border-0 p-0">
+          <div class="row g-0 shadow rounded-end-0">
+            <div class="card-header rounded-top-1 border-0 shadow col-12">
+              <h5 class="card-title rounded-0 pt-2">Mental Health Data</h5>
+            </div>
+            <div class="col-md-6 col-lg-8 col-xxl-6 p-2">
+              <p class="card-text mt-2 text-center">
+                Psychotherapy, also called talk therapy, involves talking about your condition and related issues with a mental health professional. During psychotherapy, you Diagnosing your condition conditions and your moods, feelings, thoughts and behavior. With the
+                insights and knowledge you gain, you can learn coping and stress management skills.
+              </p>
+              <p style="padding-bottom: 29px;">
+                When choosing a therapist, you should feel comfortable and be confident that he or she is capable of listening and hearing what you have to say. Also, it's important that your therapist understands the life journey that has helped shape who you are and
+                how you live in the world.
+              </p>
+              <a class="btn btn-primary shadow m-2 sticky-bottom" href="statistics.html#graphs">Learn More</a>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
+              <img src="assets/images/Psychotherapy.webp" class="img-fluid shadow rounded-bottom-1" alt="...">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+  </main>
+  <!-- FOOTER Contact -->
+  <footer id="footer" class="col-12 mt-auto">
+    <div class="row text-center d-flex justify-content-around">
+
+      <div class="col-12">
+        <h3 class="display-4">Contact us!</h3>
+        <h4 class="text-black">Every Mind Matters</h4>
+        <a href="booking.html" class="btn btn-primary shadow mb-2 mt-4">Book Appointment</a>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-4">
+        <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
+        <a href="https://www.google.com/"><i class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br>
+        <a href=""><i class="fa-solid fa-book-medical"></i> Explore mental health</a><br>
+        <a href=""><i class="fa-regular fa-newspaper"></i> Publications</a><br>
+        <a href=""><i class="fa-solid fa-hospital"></i> NHS Mental Health</a><br>
+        <a href="https://ourworldindata.org/mental-health">
+          <i class="fa-solid fa-chart-simple"></i> Mental healthData
+        </a>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-4">
+        <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
+        <a href=""><i class="fa-solid fa-at"></i> john.smith@email.com</a><br>
+        <a href=""><i class="fa-solid fa-phone"></i> 01234 567 899</a><br>
+        <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+        <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+        <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-4">
+        <h5><i class="fa-solid fa-map-location"></i> About us</h5>
+        <address>
+          <p>
+            69 Pavement Street<br>
+            Brick town<br>
+            Concrete County<br>
+            PO13 37OP
+          </p>
+          <a href="https://www.google.com/"><i class="fa-solid fa-map-pin"></i> Google Maps Link</a>
+        </address>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz' crossorigin='anonymous'>
+  </script>
+  <!-- Font Awesome kit -->
+  <script src='https://kit.fontawesome.com/aa9af45995.js' crossorigin='anonymous'></script>
+</body>
+
+</html>
