@@ -7,7 +7,7 @@
   --hl-color-dark: #2b7a78;
   --near-black: #17252a;
   
-  --fg-color-darker: #f2f2f2;
+  --fg-color-darker: #393232;
   --hl-color-light: #e5f5ee;
   --link-color: #43acdc;
   --red: #e83939;
@@ -19,7 +19,7 @@
   --bg-color:#feffff;
 
   --dark-mode-bg: #374057;
-  --dark-card-bg: #282e3b;
+  --dark-card-bg: #4c5878;
   --dark-fg-color: #feffff;
 }
 
@@ -45,6 +45,20 @@
 .custom-nav-btn {
   padding: 2px 20px;
   background-color: transparent;
+}
+.mh-tips {
+  /* background-color: var(--hl-color);
+  color: var(--fg-color); */
+  border: 2px solid var(--hl-color);
+  height: auto;
+}
+.testimonials-body {
+  background-color: var(--dark-mode-bg);
+  color: var(--dark-fg-color)
+}
+.accordion .accordion-dark {
+  background-color: var(--dark-card-bg);
+  color: var(--dark-fg-color);
 }
 
 
@@ -93,6 +107,10 @@ h4,
 h5 {
   font-family: "Montserrat", serif;
 }
+h2 {
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+}
 
 a {
   color: var(--hl-color-dark);
@@ -118,7 +136,14 @@ a {
   color: var(--fg-color);
 }
 
-
+.car-body {
+  /* background-color: var(--fg-color-darker); */
+  color: var(--near-black);
+}
+.dark-card {
+background-color: var(--dark-card-bg) !important;
+  color: var(--dark-fg-color) !important;
+}
 /* Navbar */
 
 #navbar {
@@ -259,21 +284,41 @@ section {
   padding-top: 50px;
 }
 
-.main-page .col-lg-8 p {
+/* .main-page .col-lg-8 p {
   font-size: 0.9rem;
-}
+} */
 
 
 /* LEARNING PAGE */
 
 .accordion {
-  background-color: var(--hl-color-light);
+  background-color: var(--fg-color);
+  border: 0;
 }
-
+.accordion h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.accordion-button::after {
+  color: var(--hl-color-dark)
+  background-color: var(--card-bg);
+}
 .accordion button {
-  background-color: var(--hl-color-light);
+  background-color: var(--card-bg);
   color: var(--near-black);
 }
+.accordion button {
+  background-color: var(--card-bg);
+  color: var(--card-fg);
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0rem rgba(58, 175, 169, 0.5);
+}
+/* .accordion button {
+  background-color: var(--dark-card-bg);
+  color: var(--fg-color);
+  border: 0;
+} */
 
 .accordion-button:not(.collapsed) {
   background-color: var(--hl-color);
@@ -287,9 +332,9 @@ section {
 
 /* INFO */
 
-#info .card {
+#info .card .card-body {
   /* space for button */
-  padding-bottom: 29px;
+  padding-bottom: 30px;
 }
 
 
@@ -344,15 +389,24 @@ section {
 
 /* Nav Tabs */
 
-.nav-tabs button {
+/* .nav-tabs button {
   color: var(--hl-color-dark);
-}
-
+} */
+#myTab .nav-dark {
+  color: var(--hl-color);
+  color: var(--fg-color);
+} 
 #myTab .active {
   background-color: var(--hl-color);
   color: var(--fg-color);
 }
-
+#myTab nav-link {
+  color: var(--fg-color);
+}
+#myTab button {
+  color: var(--fg-color);
+  /* color: var(--near-black); */
+}
 #myTab button:hover {
   background-color: var(--hl-color);
   color: var(--fg-color);
@@ -386,7 +440,7 @@ section {
 }
 
 #footer a {
-  color: var(--fg-color-darker);
+  color: var(--fg-color);
   transition: 0.2s ease-in-out;
 }
 
@@ -503,7 +557,7 @@ body.dark-mode{
 @media screen and (min-width: 768px) {
   #programmes img {
     /* Overrides bootstrap */
-    border-bottom-left-radius: 0rem !important;
+    /* border-bottom-left-radius: 0rem !important; */
   }
   #accordionFlushExample {
     text-align: center;
@@ -515,11 +569,11 @@ body.dark-mode{
     font-size: 2.8rem;
   }
   #home .col-lg-8 p {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
   }
   #home .col-lg-4 img {
     /* Overrides bootstrap */
-    border-bottom-left-radius: 0 !important;
+    /* border-bottom-left-radius: 0 !important; */
   }
 }
 
@@ -532,10 +586,10 @@ body.dark-mode{
   }
   #home .col-lg-4 img {
     /* Overrides bootstrap */
-    border-bottom-left-radius: 0 !important;
+    /* border-bottom-left-radius: 0 !important; */
   }
   #home .col-lg-8 p {
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
   }
 }
 

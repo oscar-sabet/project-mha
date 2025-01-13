@@ -18,6 +18,8 @@
       rel='stylesheet'
       integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH'
       crossorigin='anonymous'>
+    <!-- Include AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <!-- custom CSS -->
     <link rel='stylesheet' href='assets/css/style.css'>
     <!-- Favicon -->
@@ -104,9 +106,9 @@
     <header id="header" class="container-fluid shadow ">
       <div class="row text-center justify-content-center">
         <div class="col-12">
-          <h1 id="hero-h1" class="display-4"></h1>
+          <h1 id="hero-h1" class="display-4">Mental Health Awareness</h1>
           <i class="fa-solid fa-shield-heart"></i>
-          <h2 id="hero-h2" class="display-6">Every Mind Matters</h2>
+          <h2 id="hero-h2" class="display-6"><!-- Every Mind Matters --></h2>
         </div>
       </div>
     </header>
@@ -115,13 +117,13 @@
     <main id="home" class="main-page shadow">
 
       <!-- SECTION Information -->
-      <section id="info"
-        class="container text-center d-flex justify-content-between">
+      <section id="info" data-aos="fade-up" data-aos="fade-down"
+        class=" container text-center d-flex justify-content-between">
         <div class="row d-flex justify-content-between">
           <div class="col-12">
             <h2 class="display-1">Learn about mental health</h2>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-7 col-lg-8">
             <p>
               Explore our content and resources designed to give you more
               information about mental health and mental health problems, how to
@@ -144,6 +146,44 @@
             </p>
           </div>
 
+          <!-- Tips Card -->
+          <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+            <div class="card">
+              <div class="mh-tips card-body rounded shadow text-start pb-6">
+                <h4 class="card-title">Mental Health Tip</h4>
+                <h6>Practice Mindfulness Daily</h6>
+                <p class="card-text mt-auto text-start m-0 p-0">
+                  Incorporating mindfulness into your daily routine can
+                  significantly improve your mental well-being. Simple practices
+                  like deep breathing, meditation, or mindful walking can help
+                  reduce stress and enhance emotional regulation.
+                </p>
+                <br>
+                <a class="btn btn-primary shadow" href="learning.html">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="card col-12 col-md-4 bg-transparent xp-0 border-0">
+            <div
+              class=" mh-tips card-body rounded shadow text-start xpb-6">
+              <h4 class="card-title">Mental Health Tip</h4>
+              <h6>Practice Mindfulness Daily</h6>
+              <p class="card-text mt-auto text-start">
+                Incorporating mindfulness into your daily routine can
+                significantly improve your mental well-being. Simple practices
+                like deep breathing, meditation, or mindful walking can help
+                reduce stress and enhance emotional regulation. By dedicating
+                just a few minutes each day to mindfulness, you can cultivate a
+                greater sense of calm and clarity in your life.
+              </p>
+              <br>
+
+            </div>
+          </div> -->
+          <!-- </div>
+        <div class="row col-12 d-flex justify-content-between"> -->
           <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
             <div class="card shadow bg-transparent col-12 border-0">
               <div class="card-header shadow border-0 rounded-top-1">
@@ -216,25 +256,73 @@
       </section>
 
       <!-- SECTION Testimonials -->
-      <section id="testimonials"
+      <section id="testimonials" data-aos="fade-up"
         class="container text-center d-flex justify-content-between">
         <div class="row d-flex justify-content-between">
           <div class="col-12">
             <h2 class="display-1">Testimonials</h2>
           </div>
 
-          <div class="col-12">
+          <div class="col-12 col-md-7 col-lg-8">
             <p>
-              Mental health is an essential part of people’s lives and society.
-              Poor mental health affects our well-being, our ability to work,
-              and our relationships with friends, family, and community.
+              Sharing personal experiences with mental health can be a powerful
+              way to connect with others and foster a sense of community.
+              Testimonials provide a platform for individuals to share their
+              journeys, challenges, and triumphs, offering hope and
+              encouragement to those who may be facing similar struggles. By
+              reading about others' experiences, we can gain valuable insights
+              and feel less isolated in our own mental health journeys.
             </p>
             <p>
-              Mental health conditions are not uncommon. Hundreds of millions
-              suffer from them yearly, and many more do over their lifetimes.
-              It’s estimated
+              Each testimonial is a unique story that highlights the diverse
+              ways in which mental health issues can manifest and be managed.
+              From dealing with anxiety and depression to overcoming trauma and
+              finding effective coping strategies, these stories reflect the
+              resilience and strength of the human spirit. They remind us that
+              while mental health challenges can be daunting, they are also
+              surmountable with the right support and resources.
+            </p>
+            <p>
+              Testimonials also play a crucial role in breaking down the stigma
+              associated with mental health. When individuals openly discuss
+              their mental health struggles, it helps to normalize these
+              conversations and encourages others to seek help without fear of
+              judgment. This openness can lead to a more compassionate and
+              understanding society where mental health is prioritized and
+              supported.
+            </p>
+            <p>
+              We invite you to read through these testimonials and find
+              inspiration in the stories shared. Whether you are seeking
+              comfort, motivation, or simply a sense of solidarity, these
+              personal accounts can provide the reassurance that you are not
+              alone. If you feel moved by these stories, consider sharing your
+              own testimonial to contribute to this growing community of support
+              and understanding.
             </p>
           </div>
+
+          <!-- Tips Card -->
+          <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+            <div class="card">
+              <div class="mh-tips card-body rounded shadow text-start pb-6">
+                <h4 class="card-title">Mental Health Tip</h4>
+                <h5>Share Your Story</h5>
+                <p class="card-text mt-auto text-start m-0 pb-2">
+                  Sharing your mental health journey can be incredibly
+                  empowering and helpful to others. By posting a testimonial,
+                  you can provide support, encouragement, and a sense of
+                  community to those who may be struggling. Your story can
+                  inspire others to seek help and remind them that they are not
+                  alone in their experiences.
+                </p>
+                <br>
+                <a class="btn btn-primary shadow" href="learning.html">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
           <div class="row">
 
             <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
@@ -343,11 +431,14 @@
         </section>
 
         <!-- SECTION Caring -->
-        <section id="looking-after"
+        <section id="looking-after" data-aos="fade-up"
           class="container text-center d-flex justify-content-between">
           <div class="row d-flex justify-content-between">
             <div class="col-12">
-              <h2 class="display-1">Caring With Mental Health</h2>
+              <h2 class="display-1 col-12">Caring With Mental Health</h2>
+            </div>
+            <div class="col-12 col-md-7 col-lg-8">
+
               <p>
                 Caring for mental health is crucial for maintaining overall
                 well-being. It involves recognizing the importance of mental
@@ -380,6 +471,28 @@
                 challenges
                 and promote mental well-being.
               </p>
+            </div>
+
+            <!-- Tips Card -->
+            <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+              <div class="card">
+                <div class="mh-tips card-body rounded shadow text-start pb-6">
+                  <h4 class="card-title">Mental Health Tip</h4>
+                  <h5>Share Your Story</h5>
+                  <p class="card-text mt-auto text-start m-0 pb-2">
+                    Sharing your mental health journey can be incredibly
+                    empowering and helpful to others. By posting a testimonial,
+                    you can provide support, encouragement, and a sense of
+                    community to those who may be struggling. Your story can
+                    inspire others to seek help and remind them that they are
+                    not
+                    alone in their experiences.
+                  </p>
+                  <br>
+                  <a class="btn btn-primary shadow" href="learning.html">Learn
+                    More</a>
+                </div>
+              </div>
             </div>
 
             <div class="card-div col-12 col-md-12 col-lg-6 col-xl-6 p-2">
@@ -423,14 +536,14 @@
         </section>
 
         <!-- SECTION Statistics -->
-        <section id="statistics"
+        <section id="statistics" data-aos="fade-up"
           class="container text-center d-flex justify-content-between">
-          <div class="row d-flex justify-content-between p-2">
+          <div class="row d-flex justify-content-between p-2 ">
             <div class="col-12">
               <h2 class="display-1">Mental Health Statistics</h2>
             </div>
 
-            <div class="col-12">
+            <div class="col-12 col-md-7 col-lg-8">
               <p>
                 Mental health is an essential part of people’s lives and
                 society. Poor mental health affects our well-being, our ability
@@ -464,74 +577,190 @@
               </p>
             </div>
 
-            <div
+            <!-- Tips Card -->
+            <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+              <div class="card">
+                <div class="mh-tips card-body rounded shadow text-start pb-6">
+                  <h4 class="card-title">Mental Health Tip</h4>
+                  <h5>Seek Professional Help</h5>
+                  <p class="card-text mt-auto text-start m-0 pb-2">
+                    If you are struggling with your mental health, don't
+                    hesitate to seek professional support. Therapists,
+                    counselors, and support groups can provide valuable guidance
+                    and assistance.
+                  </p>
+                  <br>
+                  <a class="btn btn-primary shadow" href="learning.html">Learn
+                    More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <h2 class="display-1">Mental Health Data</h2>
+            </div>
+            <div class="row w-100">
+              <div class="col-12 col-md-7 col-lg-8">
+                <p>
+                  Understanding mental health statistics is crucial for grasping
+                  the scope and impact of mental health issues on individuals
+                  and society. These statistics provide valuable insights into
+                  the prevalence of various mental health conditions, the
+                  demographics most affected, and the trends over time. By
+                  analyzing this data, we can identify areas that require more
+                  attention and resources, and develop targeted interventions to
+                  support those in need.
+                </p>
+                <p>
+                  Mental health statistics also help to highlight the importance
+                  of mental health awareness and the need for comprehensive
+                  mental health services. They reveal the significant burden
+                  that mental health disorders place on individuals, families,
+                  and communities, and underscore the necessity of early
+                  intervention and effective treatment. By staying informed
+                  about mental health statistics, we can better advocate for
+                  policies and programs that promote mental well-being and
+                  reduce the stigma associated with mental health issues.
+                </p>
+              </div>
+
+              <!-- Stats Card -->
+              <div
+                class="col-12 col-md-5 col-lg-4 bg-transparent rounded xp-0 border-0 mb-6">
+                <div class="card mb-6">
+                  <div class="card-body rounded shadow text-start p-0">
+                    <div class="rounded">
+                      <img src="assets/images/diagnosing .webp"
+                        class="rounded w-100"
+                        alt>
+                    </div>
+                    <a class="btn btn-primary shadow" href="learning.html">
+                      Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <h2 class="display-1">Mental Health Statistics</h2>
+              </div>
+              <div class="col-12 col-md-7 col-lg-8">
+                <p>
+                  Mental health data encompasses a wide range of information
+                  that helps us understand the factors influencing mental
+                  health, the effectiveness of various treatments, and the
+                  overall state of mental health in different populations. This
+                  data includes clinical research findings, patient outcomes,
+                  and surveys on mental health behaviors and attitudes. By
+                  examining mental health data, researchers and healthcare
+                  professionals can identify patterns and correlations that
+                  inform best practices and improve mental health care.
+                </p>
+                <p>
+                  Access to comprehensive mental health data is essential for
+                  developing evidence-based strategies to address mental health
+                  challenges. It allows policymakers, practitioners, and
+                  advocates to make informed decisions about resource
+                  allocation, program development, and public health
+                  initiatives. By leveraging mental health data, we can work
+                  towards a more informed and compassionate approach to mental
+                  health care, ultimately improving the quality of life for
+                  individuals affected by mental health conditions.
+                </p>
+              </div>
+
+              <!-- Stats Card -->
+              <div
+                class="col-12 col-md-5 col-lg-4 bg-transparent rounded xp-0 border-0">
+                <div class="card">
+                  <div class="card-body rounded shadow text-start p-0">
+                    <div class="rounded">
+                      <img src="assets/images/Psychotherapy.webp"
+                        class="rounded w-100"
+                        alt>
+                    </div>
+                    <a class="btn btn-primary shadow" href="learning.html">
+                      Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- </div> -->
+
+              <!-- <div
               class="card card-img-l p-2 col-12 col-xxl-6 mb-3 rounded-1 bg-transparent border border-0 p-0">
               <div class="row g-0 shadow rounded-end-0">
                 <div class="card-header rounded-top-1 border-0 shadow col-12">
                   <h5 class="card-title rounded-0 pt-2">Mental Health
                     Statistics</h5>
                 </div>
-                <div class="col-md-6 col-lg-8 col-xxl-6 p-2">
-                  <p class="card-text mt-2 text-center">
-                    Your treatment depends on the type of mental illness you
-                    have, its severity and what works best for you. In many
-                    cases, a combination of treatments works best.
-                  </p>
-                  <!-- <p>
-                If you have a mild mental illness with well-controlled symptoms, treatment from your primary care provider may be sufficient. This is especially important for severe mental illnesses, such as schizophrenia.
-              </p> -->
-                  <p style="padding-bottom: 29px;">
-                    The defining symptoms for each mental illness are detailed
-                    in the Diagnostic and Statistical Manual of Mental Disorders
-                    (DSM-5), published by the American Psychiatric Association.
-                    This manual is used by mental health professionals to
-                    diagnose mental conditions
-                    and by insurance companies to reimburse for treatment.
+                <div class=" col-md-6 col-lg-8 col-xxl-6 xp-2">
+                  <div class="card-body">
+
+                    <p class="card-text mt-2 text-center">
+                      Your treatment depends on the type of mental illness you
+                      have, its severity and what works best for you. In many
+                      cases, a combination of treatments works best.
+                    </p>
+
+                    <p>
+                      The defining symptoms for each mental illness are detailed
+                      in the Diagnostic and Statistical Manual of Mental
+                      Disorders
+                      (DSM-5), published by the American Psychiatric
+                      Association.
+                      This manual is used by mental health professionals to
+                      diagnose mental conditions
+                      and by insurance companies to reimburse for treatment.
+                    </p>
                     <a class="btn btn-primary shadow sticky-bottom m-2"
                       href="statistics.html#statistics">Learn
                       More</a>
                   </div>
-                  <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
-                    <img src="assets/images/Treatment.webp"
-                      class="img-fluid shadow rounded-bottom-1" alt="...">
-                  </div>
-                </div>
-              </div>
 
-              <div
-                class="card card-img-l p-2 col-12 col-xxl-6 mb-3 rounded-1 bg-transparent border border-0 p-0">
-                <div class="row g-0 shadow rounded-end-0">
-                  <div class="card-header rounded-top-1 border-0 shadow col-12">
-                    <h5 class="card-title rounded-0 pt-2">Mental Health
-                      Data</h5>
-                  </div>
-                  <div class="col-md-6 col-lg-8 col-xxl-6 p-2">
-                    <p class="card-text mt-2 text-center">
-                      Psychotherapy, also called talk therapy, involves talking
-                      about your condition and related issues with a mental
-                      health professional. During psychotherapy, you Diagnosing
-                      your condition conditions and your moods, feelings,
-                      thoughts and behavior. With the
-                      insights and knowledge you gain, you can learn coping and
-                      stress management skills.
-                    </p>
-                    <p style="padding-bottom: 29px;">
-                      When choosing a therapist, you should feel comfortable and
-                      be confident that he or she is capable of listening and
-                      hearing what you have to say. Also, it's important that
-                      your therapist understands the life journey that has
-                      helped shape who you are and
-                      how you live in the world.
-                    </p>
-                    <a class="btn btn-primary shadow m-2 sticky-bottom"
-                      href="statistics.html#graphs">Learn More</a>
-                  </div>
-                  <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
-                    <img src="assets/images/Psychotherapy.webp"
-                      class="img-fluid shadow rounded-bottom-1" alt="...">
-                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
+                  <img src="assets/images/Treatment.webp"
+                    class="img-fluid shadow rounded-bottom-1" alt="...">
                 </div>
               </div>
+            </div> -->
+
+              <!-- <div
+              class="card card-img-l p-2 col-12 col-xxl-6 mb-3 rounded-1 bg-transparent border border-0 p-0">
+              <div class="row g-0 shadow rounded-end-0">
+                <div class="card-header rounded-top-1 border-0 shadow col-12">
+                  <h5 class="card-title rounded-0 pt-2">Mental Health
+                    Data</h5>
+                </div>
+                <div class="col-md-6 col-lg-8 col-xxl-6 p-2">
+                  <p class="card-text mt-2 text-center">
+                    Psychotherapy, also called talk therapy, involves talking
+                    about your condition and related issues with a mental
+                    health professional. During psychotherapy, you Diagnosing
+                    your condition conditions and your moods, feelings,
+                    thoughts and behavior. With the
+                    insights and knowledge you gain, you can learn coping and
+                    stress management skills.
+                  </p>
+                  <p style="padding-bottom: 29px;">
+                    When choosing a therapist, you should feel comfortable and
+                    be confident that he or she is capable of listening and
+                    hearing what you have to say. Also, it's important that
+                    your therapist understands the life journey that has
+                    helped shape who you are and
+                    how you live in the world.
+                  </p>
+                  <a class="btn btn-primary shadow m-2 sticky-bottom"
+                    href="statistics.html#graphs">Learn More</a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xxl-6 h-100">
+                  <img src="assets/images/Psychotherapy.webp"
+                    class="img-fluid shadow rounded-bottom-1" alt="...">
+                </div>
+              </div>
+            </div> -->
 
             </div>
 
@@ -596,16 +825,17 @@
           src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'
           integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz'
           crossorigin='anonymous'>
-  </script>
+        </script>
         <!-- Font Awesome kit -->
         <script src='https://kit.fontawesome.com/aa9af45995.js'
           crossorigin='anonymous'></script>
+        <!-- Include AOS JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/scripts.js"></script>
+        <!-- Initialize AOS -->
         <script>
-          
-
-          
+          AOS.init();
         </script>
       </body>
 
