@@ -1,811 +1,1260 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MHA | Learning</title>
-  <!-- Meta -->
-  <meta name="description" content="Mental health has a significant impact on people’s lives and wellbeing. To support people with mental illnesses, we need better data to understand them." />
-  <meta name="keywords" content="mental health, mental illness, wellbeing, support, data, understanding">
-  <meta name="author" content="Oscar Sabet - Code Institute">
-  <meta name="robots" content="index, follow">
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <!-- custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MHA | Learning</title>
+    <!-- Meta -->
+    <meta name="description"
+      content="Mental health has a significant impact on people’s lives and wellbeing. To support people with mental illnesses, we need better data to understand them." />
+    <meta name="keywords"
+      content="mental health, mental illness, wellbeing, support, data, understanding">
+    <meta name="author" content="Oscar Sabet - Code Institute">
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png" />
+  </head>
 
-<body class="d-flex flex-column min-vh-100">
-  <nav id="navbar" class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <i class="fa-solid fa-shield-heart"></i> MHA | Learning
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-shield-heart"></i> MHA | Learning</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="learning.html">Learning</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="caring.html">Caring</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="statistics.html">Statistics</a>
-            </li>
-          </ul>
+  <body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
+    <nav id="navbar"
+      class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top"
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-solid fa-shield-heart"></i> MHA | Learning
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i
+                class="fa-solid fa-shield-heart"></i> MHA | Learning</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="learning.html">Learning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="caring.html">Caring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="statistics.html">Statistics</a>
+              </li>
+              <li>
+                <button id="toggle-btn" class="btn btn-primary">Toggle Dark
+                  Mode</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- MAIN -->
-  <main>
-    <!-- SECTION Learning -->
-    <section id="learning">
-      <div class="container my-5">
-        <ul class="nav nav-tabs border-0 ms-1 justify-content-start" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active rounded-bottom-0 rounded-top-1 border-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">
-            MH Basics
-          </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-bottom-0 rounded-top-1 border-0" id="Issues-tab" data-bs-toggle="tab" data-bs-target="#Issues" type="button" role="tab" aria-controls="Issues" aria-selected="false">
-            Common Issues
-          </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-bottom-0 rounded-top-1 border-0" id="stress-tab" data-bs-toggle="tab" data-bs-target="#stress" type="button" role="tab" aria-controls="stress" aria-selected="false">
-            Stress & Anxiety
-          </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-bottom-0 rounded-top-1 border-0" id="resources-tab" data-bs-toggle="tab" data-bs-target="#resources" type="button" role="tab" aria-controls="resources" aria-selected="false">
-            Resources
-          </button>
-          </li>
-        </ul>
+    <!-- MAIN -->
+    <main>
+      <!-- SECTION Learning -->
+      <section id="learning">
+        <div class="container my-5">
+          <ul class="nav nav-tabs border-0 ms-1 justify-content-start"
+            id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active rounded-bottom-0 rounded-top-1 border-0"
+                id="home-tab" data-bs-toggle="tab" data-bs-target="#info"
+                type="button" role="tab" aria-controls="info"
+                aria-selected="true">
+                MH Basics
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-bottom-0 rounded-top-1 border-0"
+                id="Issues-tab" data-bs-toggle="tab" data-bs-target="#Issues"
+                type="button" role="tab" aria-controls="Issues"
+                aria-selected="false">
+                Common Issues
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-bottom-0 rounded-top-1 border-0"
+                id="stress-tab" data-bs-toggle="tab" data-bs-target="#stress"
+                type="button" role="tab" aria-controls="stress"
+                aria-selected="false">
+                Stress & Anxiety
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-bottom-0 rounded-top-1 border-0"
+                id="resources-tab" data-bs-toggle="tab"
+                data-bs-target="#resources" type="button" role="tab"
+                aria-controls="resources" aria-selected="false">
+                Resources
+              </button>
+            </li>
+          </ul>
 
-        <div class="tab-content rounded-1 shadow" id="myTabContent">
-          <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="home-tab">
-            <!-- SECTION Information -->
-            <section id="info" class="container text-center d-flex justify-content-between w-100">
-              <div class="row d-flex justify-content-between">
-                <div class="col-12">
-                  <h2 class="display-1">Mental Health Basics</h2>
-                </div>
+          <div class="tab-content rounded-1 shadow" id="myTabContent">
+            <div class="tab-pane fade show active" id="info" role="tabpanel"
+              aria-labelledby="home-tab">
+              <!-- SECTION Information -->
+              <section id="info"
+                class="container text-center d-flex justify-content-between w-100">
+                <div class="row d-flex justify-content-between">
+                  <div class="col-12">
+                    <h2 class="display-1">Mental Health Basics</h2>
+                  </div>
 
-                <!-- Card Start -->
-                <div class="card card-img-l col-12 col-md-6 col-xl-6 p-3 bg-transparent border-0 p-0">
-                  <div class="row g-0  shadow rounded-1">
-                    <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                      <h5 class="card-title rounded-0 pt-2">
-                        Mental Health Basics
-                      </h5>
-                    </div>
-                    <div class="lg-card p-2">
-                      <p class="card-text text-center">
-                        Mental health is a vital aspect of overall well-being, encompassing emotional, psychological, and social health. It influences how we think, feel, and behave, as well as how we manage stress, relate to others, and make decisions. Understanding the fundamentals
-                        of mental health is essential for promoting a balanced and fulfilling life.
-                      </p>
-                      <!-- <p class="p-2 pt-0">
+                  <!-- Card Start -->
+                  <div
+                    class="card card-img-l col-12 col-md-6 col-xl-6 p-3 bg-transparent border-0 p-0">
+                    <div class="row g-0  shadow rounded-1">
+                      <div
+                        class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                        <h5 class="card-title rounded-0 pt-2">
+                          Mental Health Basics
+                        </h5>
+                      </div>
+                      <div class="lg-card p-2">
+                        <p class="card-text text-center">
+                          Mental health is a vital aspect of overall well-being,
+                          encompassing emotional, psychological, and social
+                          health. It influences how we think, feel, and behave,
+                          as well as how we manage stress, relate to others, and
+                          make decisions. Understanding the fundamentals
+                          of mental health is essential for promoting a balanced
+                          and fulfilling life.
+                        </p>
+                        <!-- <p class="p-2 pt-0">
                 However, mental health exists on a spectrum. Everyone
                 experiences emotional ups and downs, but persistent challenges
                 may indicate a need for additional support. Conditions such as
                 anxiety, depression, and stress-related disorders can impact
                 daily life and require appropriate care and attention.
               </p> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- Card End -->
-
-                <!-- Card Start -->
-                <div class="card card-img-l col-12 col-md-6 col-xl-6 p-3 bg-transparent border-0 p-0">
-                  <div class="row g-0  shadow rounded-1">
-                    <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                      <h5 class="card-title rounded-0 pt-2">
-                        What is Mental Health?
-                      </h5>
-                    </div>
-                    <div class="lg-card p-2">
-                      <p class="card-text text-center">
-                        Mental health refers to the state of your emotional and psychological well-being. It involves the ability to cope with life's challenges, build positive relationships, and make sound decisions. Good mental health allows individuals to feel confident,
-                        manage stress effectively, and contribute productively to their community.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card End -->
-                <div class="card-group">
-                  <div class="row row-cols-xl-4">
-                    <!-- Card Start -->
-                    <div class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
-                      <div class="row g-0  shadow rounded-1">
-                        <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                          <h5 class="card-title rounded-0 pt-2">
-                            Factors Influencing Mental Health
-                          </h5>
-                        </div>
-                        <div class="sm-card p-2">
-                          <p class="card-text text-center">
-                            Several factors contribute to mental health, including biological influences like genetics and brain chemistry, life experiences such as trauma or significant changes, and environmental factors including living conditions and social support systems. Lifestyle
-                            choices, such as diet, physical activity, and substance use, also play a role in mental well-being.
-                          </p>
-                        </div>
                       </div>
-                    </div>
-                    <!-- Card End -->
-
-                    <!-- Card Start -->
-                    <div class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
-                      <div class="row g-0  shadow rounded-1">
-                        <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                          <h5 class="card-title rounded-0 pt-2">
-                            Common Mental Health Challenges
-                          </h5>
-                        </div>
-                        <div class="sm-card p-2">
-                          <p class="card-text text-center">
-                            Common mental health issues include anxiety disorders, characterized by excessive worry or fear; depression, marked by persistent sadness and loss of interest; and stress, which can impact health when it becomes chronic. Conditions such as PTSD and bipolar
-                            disorder can also affect emotional stability and daily functioning.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Card End -->
-
-                    <!-- Card Start -->
-                    <div class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
-                      <div class="row g-0  shadow rounded-1">
-                        <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                          <h5 class="card-title rounded-0 pt-2">
-                            Maintaining Mental Health
-                          </h5>
-                        </div>
-                        <div class="sm-card p-2">
-                          <p class="card-text text-center">
-                            Maintaining mental health involves self-care practices like engaging in hobbies, mindfulness, and stress management techniques. Healthy lifestyle habits, including regular exercise, balanced nutrition, and sufficient sleep, contribute to emotional balance.
-                            Seeking professional help when needed are essential components of a holistic approach to mental wellness.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Card End -->
-
-                    <!-- Card Start -->
-                    <div class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
-                      <div class="row g-0  shadow rounded-1">
-                        <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                          <h5 class="card-title rounded-0 pt-2">
-                            When you should Seek Help
-                          </h5>
-                        </div>
-                        <div class="sm-card p-2">
-                          <p class="card-text text-center">
-                            It’s important to seek help when experiencing persistent sadness, anxiety, mood swings, or difficulty managing daily responsibilities. Withdrawing from social activities, significant changes in sleep or appetite, and thoughts of self-harm are also indicators
-                            that professional support may be necessary. Early intervention can lead to effective management and improved quality of life.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Card End -->
-                  </div>
-                  <!-- Card Start -->
-                  <div class="card card-img-l col-12 xcol-xl-6 p-3 bg-transparent border-0 p-0">
-                    <div class="row g-0  shadow rounded-1">
-                      <div class="card-header rounded-top-1 shadow-sm border-0 col-12">
-                        <h5 class="card-title rounded-0 pt-2">Conclusion</h5>
-                      </div>
-
-                      <p class="card-text p-4 text-center">
-                        Understanding mental health basics is the first step toward fostering emotional well-being and reducing stigma. By prioritizing self-care, recognizing signs of mental health challenges, and seeking support when needed, individuals can lead healthier,
-                        more balanced lives. Mental health matters for everyone—prioritize it for yourself and those around you.
-                      </p>
                     </div>
                   </div>
                   <!-- Card End -->
+
+                  <!-- Card Start -->
+                  <div
+                    class="card card-img-l col-12 col-md-6 col-xl-6 p-3 bg-transparent border-0 p-0">
+                    <div class="row g-0  shadow rounded-1">
+                      <div
+                        class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                        <h5 class="card-title rounded-0 pt-2">
+                          What is Mental Health?
+                        </h5>
+                      </div>
+                      <div class="lg-card p-2">
+                        <p class="card-text text-center">
+                          Mental health refers to the state of your emotional
+                          and psychological well-being. It involves the ability
+                          to cope with life's challenges, build positive
+                          relationships, and make sound decisions. Good mental
+                          health allows individuals to feel confident,
+                          manage stress effectively, and contribute productively
+                          to their community.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card End -->
+                  <div class="card-group">
+                    <div class="row row-cols-xl-4">
+                      <!-- Card Start -->
+                      <div
+                        class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
+                        <div class="row g-0  shadow rounded-1">
+                          <div
+                            class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                            <h5 class="card-title rounded-0 pt-2">
+                              Factors Influencing Mental Health
+                            </h5>
+                          </div>
+                          <div class="sm-card p-2">
+                            <p class="card-text text-center">
+                              Several factors contribute to mental health,
+                              including biological influences like genetics and
+                              brain chemistry, life experiences such as trauma
+                              or significant changes, and environmental factors
+                              including living conditions and social support
+                              systems. Lifestyle
+                              choices, such as diet, physical activity, and
+                              substance use, also play a role in mental
+                              well-being.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Card End -->
+
+                      <!-- Card Start -->
+                      <div
+                        class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
+                        <div class="row g-0  shadow rounded-1">
+                          <div
+                            class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                            <h5 class="card-title rounded-0 pt-2">
+                              Common Mental Health Challenges
+                            </h5>
+                          </div>
+                          <div class="sm-card p-2">
+                            <p class="card-text text-center">
+                              Common mental health issues include anxiety
+                              disorders, characterized by excessive worry or
+                              fear; depression, marked by persistent sadness and
+                              loss of interest; and stress, which can impact
+                              health when it becomes chronic. Conditions such as
+                              PTSD and bipolar
+                              disorder can also affect emotional stability and
+                              daily functioning.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Card End -->
+
+                      <!-- Card Start -->
+                      <div
+                        class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
+                        <div class="row g-0  shadow rounded-1">
+                          <div
+                            class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                            <h5 class="card-title rounded-0 pt-2">
+                              Maintaining Mental Health
+                            </h5>
+                          </div>
+                          <div class="sm-card p-2">
+                            <p class="card-text text-center">
+                              Maintaining mental health involves self-care
+                              practices like engaging in hobbies, mindfulness,
+                              and stress management techniques. Healthy
+                              lifestyle habits, including regular exercise,
+                              balanced nutrition, and sufficient sleep,
+                              contribute to emotional balance.
+                              Seeking professional help when needed are
+                              essential components of a holistic approach to
+                              mental wellness.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Card End -->
+
+                      <!-- Card Start -->
+                      <div
+                        class="card card-img-l col-12 col-md-6 col-xl-3 p-3 bg-transparent border-0 p-0">
+                        <div class="row g-0  shadow rounded-1">
+                          <div
+                            class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                            <h5 class="card-title rounded-0 pt-2">
+                              When you should Seek Help
+                            </h5>
+                          </div>
+                          <div class="sm-card p-2">
+                            <p class="card-text text-center">
+                              It’s important to seek help when experiencing
+                              persistent sadness, anxiety, mood swings, or
+                              difficulty managing daily responsibilities.
+                              Withdrawing from social activities, significant
+                              changes in sleep or appetite, and thoughts of
+                              self-harm are also indicators
+                              that professional support may be necessary. Early
+                              intervention can lead to effective management and
+                              improved quality of life.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Card End -->
+                    </div>
+                    <!-- Card Start -->
+                    <div
+                      class="card card-img-l col-12 xcol-xl-6 p-3 bg-transparent border-0 p-0">
+                      <div class="row g-0  shadow rounded-1">
+                        <div
+                          class="card-header rounded-top-1 shadow-sm border-0 col-12">
+                          <h5 class="card-title rounded-0 pt-2">Conclusion</h5>
+                        </div>
+
+                        <p class="card-text p-4 text-center">
+                          Understanding mental health basics is the first step
+                          toward fostering emotional well-being and reducing
+                          stigma. By prioritizing self-care, recognizing signs
+                          of mental health challenges, and seeking support when
+                          needed, individuals can lead healthier,
+                          more balanced lives. Mental health matters for
+                          everyone—prioritize it for yourself and those around
+                          you.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Card End -->
+                  </div>
                 </div>
-              </div>
-            </section>
-          </div>
-          <div class="tab-pane fade" id="Issues" role="tabpanel" aria-labelledby="Issues-tab">
-            <!-- SECTION Common Issues -->
-            <section id="common-issues" class="container text-center d-flex justify-content-between w-100">
-              <div class="row d-flex justify-content-between">
-                <div class="col-12">
-                  <h2 class="display-1">Common Issues</h2>
+              </section>
+            </div>
+            <div class="tab-pane fade" id="Issues" role="tabpanel"
+              aria-labelledby="Issues-tab">
+              <!-- SECTION Common Issues -->
+              <section id="common-issues"
+                class="container text-center d-flex justify-content-between w-100">
+                <div class="row d-flex justify-content-between">
+                  <div class="col-12">
+                    <h2 class="display-1">Common Issues</h2>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Mental health challenges are prevalent across all walks of
+                      life, affecting individuals of all ages, genders, and
+                      backgrounds. While mental health issues are diverse, some
+                      common conditions can have a significant impact on a
+                      person’s overall well-being
+                      and daily functioning. Understanding these issues is vital
+                      for both prevention and support.
+                    </p>
+                    <p>
+                      Common mental health issues include anxiety disorders,
+                      characterized by excessive worry or fear; depression,
+                      marked by persistent sadness and loss of interest; and
+                      stress, which can impact health when it becomes chronic.
+                      Conditions such as PTSD and bipolar
+                      disorder can also affect emotional stability and daily
+                      functioning.
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <!-- Accordion -->
+                    <div class="accordion accordion-flush shadow rounded-1 my-6"
+                      id="common-issues">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed shadow-0 rounded-top-1"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Anxiety Disorders
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body text-start">
+                            <p>
+                              Anxiety disorders are some of the most common
+                              mental health conditions globally. These disorders
+                              can cause overwhelming feelings of fear, worry,
+                              and dread. People with anxiety disorders may
+                              experience persistent, excessive concern about
+                              everyday situations,
+                              leading to a sense of being "on edge." The
+                              symptoms can range from restlessness, rapid
+                              heartbeat, and dizziness to more severe responses
+                              like panic attacks.
+                            </p>
+                            <p>
+                              Common types of anxiety disorders include
+                              generalized anxiety disorder (GAD), panic
+                              disorder, social anxiety disorder, and specific
+                              phobias. GAD is marked by chronic worry about
+                              various aspects of life, while panic disorder
+                              involves recurring panic attacks
+                              that come on suddenly and without warning. Social
+                              anxiety disorder involves extreme fear of social
+                              situations, and specific phobias focus on a
+                              particular object or situation, like heights,
+                              flying, or spiders.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            Depression
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              Depression, also known as major depressive
+                              disorder, is more than just feeling sad. It’s a
+                              pervasive condition that can affect how a person
+                              thinks, feels, and behaves. Symptoms of depression
+                              often include persistent sadness, lack of interest
+                              in previously
+                              enjoyable activities, fatigue, changes in sleep
+                              and appetite, and difficulty concentrating. It may
+                              lead to suicidal thoughts in severe cases.
+                            </p>
+                            <p>
+                              Depression can be triggered by various factors,
+                              including genetics, life events, trauma, and
+                              chemical imbalances in the brain. It is important
+                              to recognize depression as a medical condition
+                              that requires treatment, as it can significantly
+                              interfere with
+                              a person’s daily life and relationships.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Bipolar Disorder
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              Bipolar disorder is characterized by extreme mood
+                              swings, from emotional highs (mania or hypomania)
+                              to lows (depression). These mood shifts can last
+                              for days, weeks, or even months, and may
+                              drastically affect a person's energy levels,
+                              decision-making,
+                              and behavior. During manic episodes, individuals
+                              may feel euphoric, impulsive, or overly
+                              optimistic. In contrast, depressive episodes can
+                              bring feelings of worthlessness, hopelessness, and
+                              fatigue.
+                            </p>
+                            <p>
+                              Bipolar disorder has two primary types: Bipolar I,
+                              which involves more severe manic episodes, and
+                              Bipolar II, where the individual experiences less
+                              intense hypomanic episodes but still suffers from
+                              depressive episodes.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Post-Traumatic Stress Disorder (PTSD)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              PTSD develops after an individual experiences a
+                              traumatic event, such as a natural disaster, war,
+                              sexual assault, or serious accident. This
+                              condition is marked by flashbacks, nightmares, and
+                              intrusive thoughts about the traumatic event,
+                              making it difficult
+                              for individuals to feel safe or to go about their
+                              daily lives.
+                            </p>
+                            <p>
+                              People with PTSD may experience heightened
+                              anxiety, irritability, and emotional numbness, and
+                              they may avoid situations or places that remind
+                              them of the trauma. PTSD can lead to long-term
+                              struggles, but with the right treatment, such as
+                              therapy and medication,
+                              individuals can regain a sense of normalcy.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Obsessive-Compulsive Disorder (OCD)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              OCD is a condition marked by persistent, unwanted
+                              thoughts (obsessions) and repetitive behaviors
+                              (compulsions) that individuals feel compelled to
+                              perform to reduce anxiety. These obsessions often
+                              involve fears of contamination, harm, or the need
+                              for symmetry,
+                              and the compulsive behaviors are aimed at
+                              preventing or neutralizing these thoughts.
+                            </p>
+                            <p>
+                              While OCD can interfere significantly with daily
+                              functioning, it is treatable with therapies like
+                              cognitive-behavioral therapy (CBT) and medication.
+                              Without treatment, OCD can cause severe distress
+                              and hinder normal activities, relationships, and
+                              professional
+                              life.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseSix">
+                            Eating Disorders
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              Eating disorders, including anorexia nervosa,
+                              bulimia nervosa, and binge eating disorder,
+                              involve abnormal eating habits that negatively
+                              impact physical and emotional health. These
+                              disorders often stem from a combination of
+                              genetic, psychological, and
+                              environmental factors. People with eating
+                              disorders may have an unhealthy obsession with
+                              weight, body image, and food.
+                            </p>
+                            <p>
+                              Anorexia involves extreme restriction of food
+                              intake, while bulimia includes episodes of
+                              overeating followed by purging behaviors such as
+                              vomiting or excessive exercise. Binge eating
+                              disorder involves consuming large quantities of
+                              food without purging,
+                              often leading to feelings of guilt and shame.
+                              Eating disorders can have severe physical and
+                              psychological consequences, and professional
+                              treatment is necessary to help individuals
+                              recover.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            Substance Use Disorders
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#common-issues">
+                          <div class="accordion-body">
+                            <p>
+                              Substance use disorders occur when a person is
+                              unable to control their use of alcohol, drugs, or
+                              other substances, despite negative consequences.
+                              These disorders can lead to physical, mental, and
+                              social problems, and they often coexist with other
+                              mental
+                              health conditions such as anxiety or depression.
+                            </p>
+                            <p>
+                              Substance use disorders require comprehensive
+                              treatment plans, including therapy, support
+                              groups, and, in some cases, medical intervention.
+                              Addressing the underlying causes of addiction,
+                              such as trauma or mental health disorders, is
+                              crucial for long-term
+                              recovery.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- end accordion -->
+                    </div>
+                    <div class="col-12 mt-4">
+                      <h3>Conclusion</h3>
+                      <p>
+                        Mental health issues are complex, but they are also
+                        treatable. Whether it's anxiety, depression, bipolar
+                        disorder, OCD, PTSD, eating disorders, or substance use
+                        disorders, help is available. If you or someone you know
+                        is struggling with a mental health
+                        issue, it’s important to seek professional help. Early
+                        intervention, understanding, and support can make a
+                        significant difference in managing mental health and
+                        leading a fulfilling life.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12">
-                  <p>
-                    Mental health challenges are prevalent across all walks of life, affecting individuals of all ages, genders, and backgrounds. While mental health issues are diverse, some common conditions can have a significant impact on a person’s overall well-being
-                    and daily functioning. Understanding these issues is vital for both prevention and support.
-                  </p>
-                  <p>
-                    Common mental health issues include anxiety disorders, characterized by excessive worry or fear; depression, marked by persistent sadness and loss of interest; and stress, which can impact health when it becomes chronic. Conditions such as PTSD and bipolar
-                    disorder can also affect emotional stability and daily functioning.
-                  </p>
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- </div> -->
+              </section>
+            </div>
+            <div class="tab-pane fade" id="stress" role="tabpanel"
+              aria-labelledby="stress-tab">
+              <!-- SECTION Stress & Anxiety -->
+              <section id="stress"
+                class="container text-center d-flex justify-content-between mb-4">
+                <div class="row d-flex justify-content-between">
+                  <div class="col-12">
+                    <h2 class="display-1">Stress & Anxiety</h2>
+                    <p>
+                      Stress and anxiety are common emotional responses to
+                      challenging situations. While they can be normal and even
+                      helpful in small amounts, chronic stress and excessive
+                      anxiety can significantly impact mental and physical
+                      health. Understanding the causes,
+                      symptoms, and ways to manage stress and anxiety is
+                      essential for overall well-being.
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <div class="accordion accordion-flush shadow rounded-1"
+                      id="stress">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed rounded-top-1"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            What is Stress?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              Stress is the body’s natural response to a
+                              perceived threat or demand. It triggers the
+                              "fight or flight" response, releasing hormones
+                              like adrenaline and cortisol to help the body
+                              respond to challenging situations. Stress can be
+                              positive in short bursts,
+                              helping individuals stay focused and motivated,
+                              such as during exams or work deadlines.
+                            </p>
+                            <p>
+                              However, when stress becomes chronic or
+                              overwhelming, it can take a toll on the body and
+                              mind. Long-term stress has been linked to physical
+                              issues such as headaches, digestive problems,
+                              heart disease, and a weakened immune system. It
+                              can also contribute
+                              to emotional struggles like irritability, poor
+                              concentration, and sleep disturbances.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            What is Anxiety?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              Anxiety is a feeling of fear, worry, or unease
+                              about a future event or uncertain outcome. It
+                              often involves physical symptoms such as a racing
+                              heart, sweating, and dizziness. Anxiety becomes a
+                              concern when it is persistent, disproportionate to
+                              the situation,
+                              and interferes with daily life.
+                            </p>
+                            <p>
+                              Anxiety disorders are a group of mental health
+                              conditions where anxiety becomes overwhelming and
+                              hard to control. Common anxiety disorders include:
+                            </p>
+                            <ul>
+                              <li>
+                                Generalized Anxiety Disorder (GAD): Chronic,
+                                excessive worry about various aspects of life.
+                              </li>
+                              <li>
+                                Panic Disorder: Sudden episodes of intense fear
+                                accompanied by physical symptoms like chest pain
+                                and shortness of breath.
+                              </li>
+                              <li>
+                                Social Anxiety Disorder: Extreme fear of social
+                                situations due to fear of embarrassment or
+                                judgment.
+                              </li>
+                              <li>
+                                Specific Phobias: Intense fear of a specific
+                                object or situation, such as heights or flying.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Causes and Triggers of Stress and Anxiety
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              Stress and anxiety can arise from a wide range of
+                              factors, including:
+                            </p>
+                            <ul>
+                              <li>
+                                Work Pressure: Tight deadlines, heavy workloads,
+                                and job insecurity.
+                              </li>
+                              <li>
+                                Personal Relationships: Conflict, loss, or
+                                significant life changes such as divorce.
+                              </li>
+                              <li>
+                                Financial Struggles: Debt, job loss, and
+                                economic instability.
+                              </li>
+                              <li>
+                                Health Issues: Chronic illness, injury, or
+                                medical diagnoses.
+                              </li>
+                              <li>
+                                Trauma and Life Events: Loss of a loved one,
+                                accidents, or natural disasters.
+                              </li>
+                              <li>
+                                Lifestyle Factors: Poor sleep, unhealthy diet,
+                                and lack of physical activity.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Symptoms of Stress and Anxiety
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              While stress and anxiety can affect people
+                              differently, common symptoms include:
+                            </p>
+                            <ul>
+                              <li>
+                                Physical Symptoms: Rapid heartbeat, headaches,
+                                muscle tension, dizziness, fatigue.
+                              </li>
+                              <li>
+                                Emotional Symptoms: Irritability, mood swings,
+                                restlessness, feelings of dread.
+                              </li>
+                              <li>
+                                Cognitive Symptoms: Difficulty concentrating,
+                                racing thoughts, forgetfulness.
+                              </li>
+                              <li>
+                                Behavioral Symptoms: Avoidance of certain
+                                situations, changes in eating or sleeping
+                                patterns, substance use.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Managing Stress and Anxiety
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              There are various effective strategies to manage
+                              and reduce stress and anxiety:
+                            </p>
+                            <ol>
+                              <li>
+                                Mindfulness and Meditation: Practices like
+                                mindfulness meditation can help center thoughts
+                                and reduce emotional reactivity.
+                              </li>
+                              <li>
+                                Regular Exercise: Physical activity releases
+                                endorphins, which improve mood and reduce stress
+                                hormones..
+                              </li>
+                              <li>
+                                Healthy Diet: Eating a balanced diet rich in
+                                nutrients can positively impact mental health.
+                              </li>
+                              <li>
+                                Adequate Sleep: Prioritizing quality sleep is
+                                crucial for emotional regulation and stress
+                                management.
+                              </li>
+                              <li>
+                                Time Management: Breaking tasks into manageable
+                                steps can prevent overwhelm.
+                              </li>
+                              <li>
+                                Social Support: Connecting with friends, family,
+                                or support groups can offer comfort and
+                                perspective.
+                              </li>
+                              <li>
+                                Limiting Stimulants: Reducing caffeine, alcohol,
+                                and sugar can prevent exacerbation of anxiety
+                                symptoms.
+                              </li>
+                              <li>
+                                Relaxation Techniques: Deep breathing,
+                                progressive muscle relaxation, and yoga can
+                                promote calmness.
+                              </li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseSix">
+                            When to Seek Professional Help
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#stress">
+                          <div class="accordion-body">
+                            <p>
+                              While mild stress and anxiety can often be managed
+                              through lifestyle adjustments, professional help
+                              may be necessary if
+                            </p>
+                            <ul>
+                              <li>Symptoms persist for extended periods.</li>
+                              <li>
+                                Anxiety significantly interferes with daily
+                                life.
+                              </li>
+                              <li>Physical health issues arise due to
+                                stress.</li>
+                              <li>
+                                Feelings of hopelessness, panic attacks, or
+                                suicidal thoughts occur.
+                              </li>
+                            </ul>
+                            <p>
+                              Mental health professionals, such as therapists
+                              and counselors, can offer treatments like
+                              cognitive-behavioral therapy (CBT), which helps
+                              individuals reframe negative thought patterns. In
+                              some cases, medication may be prescribed to manage
+                              symptoms.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                      <h3>Conclusion</h3>
+                      <p>
+                        Stress and anxiety are natural responses to life’s
+                        challenges, but they can become overwhelming if not
+                        properly managed. By recognizing the signs,
+                        understanding triggers, and adopting healthy coping
+                        mechanisms, individuals can improve their mental
+                        well-being.
+                        Remember, seeking support is a sign of strength, and
+                        help is available for those facing ongoing struggles.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12">
+              </section>
+            </div>
+            <div class="tab-pane fade" id="resources" role="tabpanel"
+              aria-labelledby="resources-tab">
+              <!-- SECTION Resources  -->
+              <section id="looking-after"
+                class="container text-center d-flex justify-content-between mb-4">
+                <div class="row d-flex justify-content-between">
+                  <div class="col-12">
+                    <h2 class="display-1">Resources & Support</h2>
+                    <p>
+                      Accessing the right resources and support is essential for
+                      maintaining mental health and coping with life’s
+                      challenges. Whether you are experiencing stress, anxiety,
+                      or other mental health concerns, various forms of help are
+                      available to assist you in
+                      your journey toward well-being.
+                    </p>
+                  </div>
+
                   <!-- Accordion -->
-                  <div class="accordion accordion-flush shadow rounded-1 my-6" id="common-issues">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed shadow-0 rounded-top-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Anxiety Disorders
-                      </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body text-start">
-                          <p>
-                            Anxiety disorders are some of the most common mental health conditions globally. These disorders can cause overwhelming feelings of fear, worry, and dread. People with anxiety disorders may experience persistent, excessive concern about everyday situations,
-                            leading to a sense of being "on edge." The symptoms can range from restlessness, rapid heartbeat, and dizziness to more severe responses like panic attacks.
-                          </p>
-                          <p>
-                            Common types of anxiety disorders include generalized anxiety disorder (GAD), panic disorder, social anxiety disorder, and specific phobias. GAD is marked by chronic worry about various aspects of life, while panic disorder involves recurring panic attacks
-                            that come on suddenly and without warning. Social anxiety disorder involves extreme fear of social situations, and specific phobias focus on a particular object or situation, like heights, flying, or spiders.
-                          </p>
+                  <div class="col-12">
+                    <div class="accordion accordion-flush shadow rounded-1"
+                      id="resources">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed shadow-0-0 rounded-top-1"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Professional Support Services
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#resources">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Therapists and Counselors: Licensed
+                                professionals can provide therapy, such as
+                                Cognitive Behavioral Therapy (CBT), to help
+                                manage stress, anxiety, and other mental health
+                                challenges.
+                              </li>
+                              <li>
+                                Psychiatrists: Medical doctors specializing in
+                                mental health who can diagnose conditions and
+                                prescribe medication if needed.
+                              </li>
+                              <li>
+                                Support Hotlines: Many regions offer 24/7
+                                hotlines for immediate emotional support, such
+                                as the National Suicide Prevention Lifeline.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            Community-Based Resources
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#resources">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Support Groups: Local or online groups for
+                                people dealing with similar challenges can
+                                provide shared experiences and encouragement.
+                              </li>
+                              <li>
+                                Community Centers: Many community centers offer
+                                mental health workshops, support meetings, and
+                                resources for emotional wellness.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Online Mental Health Resources
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#resources">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Educational Websites: Sites like Mental Health
+                                America and the National Alliance on Mental
+                                Illness (NAMI) offer articles, tools, and
+                                self-assessment resources.
+                              </li>
+                              <li>
+                                Teletherapy Platforms: Online therapy services
+                                connect individuals with licensed therapists for
+                                remote support.
+                              </li>
+                              <li>
+                                Mental Health Apps: Apps like Headspace and Calm
+                                provide guided meditation, breathing exercises,
+                                and stress management tools.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Self-Help Strategies
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#resources">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Journaling: Writing down thoughts and feelings
+                                can help clarify emotions and track progress.
+                              </li>
+                              <li>
+                                Mindfulness Practices: Techniques like
+                                meditation and deep breathing can reduce stress
+                                and improve focus.
+                              </li>
+                              <li>
+                                Healthy Lifestyle Choices: Regular exercise,
+                                balanced nutrition, and adequate sleep play a
+                                critical role in mental health.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header m-0">
+                          <button class="accordion-button collapsed shadow-0"
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Workplace Resources
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#resources">
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Employee Assistance Programs (EAPs): Many
+                                employers offer EAPs providing confidential
+                                support and counseling services.
+                              </li>
+                              <li>
+                                Wellness Workshops: Workplace wellness
+                                initiatives can include stress management
+                                classes and mindfulness sessions.
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Depression
-                      </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            Depression, also known as major depressive disorder, is more than just feeling sad. It’s a pervasive condition that can affect how a person thinks, feels, and behaves. Symptoms of depression often include persistent sadness, lack of interest in previously
-                            enjoyable activities, fatigue, changes in sleep and appetite, and difficulty concentrating. It may lead to suicidal thoughts in severe cases.
-                          </p>
-                          <p>
-                            Depression can be triggered by various factors, including genetics, life events, trauma, and chemical imbalances in the brain. It is important to recognize depression as a medical condition that requires treatment, as it can significantly interfere with
-                            a person’s daily life and relationships.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Bipolar Disorder
-                      </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            Bipolar disorder is characterized by extreme mood swings, from emotional highs (mania or hypomania) to lows (depression). These mood shifts can last for days, weeks, or even months, and may drastically affect a person's energy levels, decision-making,
-                            and behavior. During manic episodes, individuals may feel euphoric, impulsive, or overly optimistic. In contrast, depressive episodes can bring feelings of worthlessness, hopelessness, and fatigue.
-                          </p>
-                          <p>
-                            Bipolar disorder has two primary types: Bipolar I, which involves more severe manic episodes, and Bipolar II, where the individual experiences less intense hypomanic episodes but still suffers from depressive episodes.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Post-Traumatic Stress Disorder (PTSD)
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            PTSD develops after an individual experiences a traumatic event, such as a natural disaster, war, sexual assault, or serious accident. This condition is marked by flashbacks, nightmares, and intrusive thoughts about the traumatic event, making it difficult
-                            for individuals to feel safe or to go about their daily lives.
-                          </p>
-                          <p>
-                            People with PTSD may experience heightened anxiety, irritability, and emotional numbness, and they may avoid situations or places that remind them of the trauma. PTSD can lead to long-term struggles, but with the right treatment, such as therapy and medication,
-                            individuals can regain a sense of normalcy.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        Obsessive-Compulsive Disorder (OCD)
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            OCD is a condition marked by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions) that individuals feel compelled to perform to reduce anxiety. These obsessions often involve fears of contamination, harm, or the need for symmetry,
-                            and the compulsive behaviors are aimed at preventing or neutralizing these thoughts.
-                          </p>
-                          <p>
-                            While OCD can interfere significantly with daily functioning, it is treatable with therapies like cognitive-behavioral therapy (CBT) and medication. Without treatment, OCD can cause severe distress and hinder normal activities, relationships, and professional
-                            life.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                        Eating Disorders
-                      </button>
-                      </h2>
-                      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            Eating disorders, including anorexia nervosa, bulimia nervosa, and binge eating disorder, involve abnormal eating habits that negatively impact physical and emotional health. These disorders often stem from a combination of genetic, psychological, and
-                            environmental factors. People with eating disorders may have an unhealthy obsession with weight, body image, and food.
-                          </p>
-                          <p>
-                            Anorexia involves extreme restriction of food intake, while bulimia includes episodes of overeating followed by purging behaviors such as vomiting or excessive exercise. Binge eating disorder involves consuming large quantities of food without purging,
-                            often leading to feelings of guilt and shame. Eating disorders can have severe physical and psychological consequences, and professional treatment is necessary to help individuals recover.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                        Substance Use Disorders
-                      </button>
-                      </h2>
-                      <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#common-issues">
-                        <div class="accordion-body">
-                          <p>
-                            Substance use disorders occur when a person is unable to control their use of alcohol, drugs, or other substances, despite negative consequences. These disorders can lead to physical, mental, and social problems, and they often coexist with other mental
-                            health conditions such as anxiety or depression.
-                          </p>
-                          <p>
-                            Substance use disorders require comprehensive treatment plans, including therapy, support groups, and, in some cases, medical intervention. Addressing the underlying causes of addiction, such as trauma or mental health disorders, is crucial for long-term
-                            recovery.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- end accordion -->
                   </div>
+                  <!-- end -->
+
                   <div class="col-12 mt-4">
-                    <h3>Conclusion</h3>
+                    <h3>When to Seek Help</h3>
                     <p>
-                      Mental health issues are complex, but they are also treatable. Whether it's anxiety, depression, bipolar disorder, OCD, PTSD, eating disorders, or substance use disorders, help is available. If you or someone you know is struggling with a mental health
-                      issue, it’s important to seek professional help. Early intervention, understanding, and support can make a significant difference in managing mental health and leading a fulfilling life.
+                      Seeking help is a sign of strength. If you experience
+                      persistent stress, anxiety, or symptoms that interfere
+                      with daily life, consider reaching out for professional
+                      support. Early intervention can make a significant
+                      difference in overall well-being.
+                    </p>
+                    <p>
+                      Support and resources are available to help you manage
+                      your mental health effectively. Whether through
+                      professional help, community networks, or self-care
+                      strategies, accessing the right support can empower you to
+                      navigate life’s challenges with resilience
+                      and strength.
                     </p>
                   </div>
                 </div>
-              </div>
-              <!-- </div> -->
-              <!-- </div> -->
-              <!-- </div> -->
-            </section>
-          </div>
-          <div class="tab-pane fade" id="stress" role="tabpanel" aria-labelledby="stress-tab">
-            <!-- SECTION Stress & Anxiety -->
-            <section id="stress" class="container text-center d-flex justify-content-between mb-4">
-              <div class="row d-flex justify-content-between">
-                <div class="col-12">
-                  <h2 class="display-1">Stress & Anxiety</h2>
-                  <p>
-                    Stress and anxiety are common emotional responses to challenging situations. While they can be normal and even helpful in small amounts, chronic stress and excessive anxiety can significantly impact mental and physical health. Understanding the causes,
-                    symptoms, and ways to manage stress and anxiety is essential for overall well-being.
-                  </p>
-                </div>
-                <div class="col-12">
-                  <div class="accordion accordion-flush shadow rounded-1" id="stress">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rounded-top-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        What is Stress?
-                      </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            Stress is the body’s natural response to a perceived threat or demand. It triggers the "fight or flight" response, releasing hormones like adrenaline and cortisol to help the body respond to challenging situations. Stress can be positive in short bursts,
-                            helping individuals stay focused and motivated, such as during exams or work deadlines.
-                          </p>
-                          <p>
-                            However, when stress becomes chronic or overwhelming, it can take a toll on the body and mind. Long-term stress has been linked to physical issues such as headaches, digestive problems, heart disease, and a weakened immune system. It can also contribute
-                            to emotional struggles like irritability, poor concentration, and sleep disturbances.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        What is Anxiety?
-                      </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            Anxiety is a feeling of fear, worry, or unease about a future event or uncertain outcome. It often involves physical symptoms such as a racing heart, sweating, and dizziness. Anxiety becomes a concern when it is persistent, disproportionate to the situation,
-                            and interferes with daily life.
-                          </p>
-                          <p>
-                            Anxiety disorders are a group of mental health conditions where anxiety becomes overwhelming and hard to control. Common anxiety disorders include:
-                          </p>
-                          <ul>
-                            <li>
-                              Generalized Anxiety Disorder (GAD): Chronic, excessive worry about various aspects of life.
-                            </li>
-                            <li>
-                              Panic Disorder: Sudden episodes of intense fear accompanied by physical symptoms like chest pain and shortness of breath.
-                            </li>
-                            <li>
-                              Social Anxiety Disorder: Extreme fear of social situations due to fear of embarrassment or judgment.
-                            </li>
-                            <li>
-                              Specific Phobias: Intense fear of a specific object or situation, such as heights or flying.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Causes and Triggers of Stress and Anxiety
-                      </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            Stress and anxiety can arise from a wide range of factors, including:
-                          </p>
-                          <ul>
-                            <li>
-                              Work Pressure: Tight deadlines, heavy workloads, and job insecurity.
-                            </li>
-                            <li>
-                              Personal Relationships: Conflict, loss, or significant life changes such as divorce.
-                            </li>
-                            <li>
-                              Financial Struggles: Debt, job loss, and economic instability.
-                            </li>
-                            <li>
-                              Health Issues: Chronic illness, injury, or medical diagnoses.
-                            </li>
-                            <li>
-                              Trauma and Life Events: Loss of a loved one, accidents, or natural disasters.
-                            </li>
-                            <li>
-                              Lifestyle Factors: Poor sleep, unhealthy diet, and lack of physical activity.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Symptoms of Stress and Anxiety
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            While stress and anxiety can affect people differently, common symptoms include:
-                          </p>
-                          <ul>
-                            <li>
-                              Physical Symptoms: Rapid heartbeat, headaches, muscle tension, dizziness, fatigue.
-                            </li>
-                            <li>
-                              Emotional Symptoms: Irritability, mood swings, restlessness, feelings of dread.
-                            </li>
-                            <li>
-                              Cognitive Symptoms: Difficulty concentrating, racing thoughts, forgetfulness.
-                            </li>
-                            <li>
-                              Behavioral Symptoms: Avoidance of certain situations, changes in eating or sleeping patterns, substance use.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        Managing Stress and Anxiety
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            There are various effective strategies to manage and reduce stress and anxiety:
-                          </p>
-                          <ol>
-                            <li>
-                              Mindfulness and Meditation: Practices like mindfulness meditation can help center thoughts and reduce emotional reactivity.
-                            </li>
-                            <li>
-                              Regular Exercise: Physical activity releases endorphins, which improve mood and reduce stress hormones..
-                            </li>
-                            <li>
-                              Healthy Diet: Eating a balanced diet rich in nutrients can positively impact mental health.
-                            </li>
-                            <li>
-                              Adequate Sleep: Prioritizing quality sleep is crucial for emotional regulation and stress management.
-                            </li>
-                            <li>
-                              Time Management: Breaking tasks into manageable steps can prevent overwhelm.
-                            </li>
-                            <li>
-                              Social Support: Connecting with friends, family, or support groups can offer comfort and perspective.
-                            </li>
-                            <li>
-                              Limiting Stimulants: Reducing caffeine, alcohol, and sugar can prevent exacerbation of anxiety symptoms.
-                            </li>
-                            <li>
-                              Relaxation Techniques: Deep breathing, progressive muscle relaxation, and yoga can promote calmness.
-                            </li>
-                          </ol>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                        When to Seek Professional Help
-                      </button>
-                      </h2>
-                      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#stress">
-                        <div class="accordion-body">
-                          <p>
-                            While mild stress and anxiety can often be managed through lifestyle adjustments, professional help may be necessary if
-                          </p>
-                          <ul>
-                            <li>Symptoms persist for extended periods.</li>
-                            <li>
-                              Anxiety significantly interferes with daily life.
-                            </li>
-                            <li>Physical health issues arise due to stress.</li>
-                            <li>
-                              Feelings of hopelessness, panic attacks, or suicidal thoughts occur.
-                            </li>
-                          </ul>
-                          <p>
-                            Mental health professionals, such as therapists and counselors, can offer treatments like cognitive-behavioral therapy (CBT), which helps individuals reframe negative thought patterns. In some cases, medication may be prescribed to manage symptoms.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12 mt-4">
-                    <h3>Conclusion</h3>
-                    <p>
-                      Stress and anxiety are natural responses to life’s challenges, but they can become overwhelming if not properly managed. By recognizing the signs, understanding triggers, and adopting healthy coping mechanisms, individuals can improve their mental well-being.
-                      Remember, seeking support is a sign of strength, and help is available for those facing ongoing struggles.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="tab-pane fade" id="resources" role="tabpanel" aria-labelledby="resources-tab">
-            <!-- SECTION Resources  -->
-            <section id="looking-after" class="container text-center d-flex justify-content-between mb-4">
-              <div class="row d-flex justify-content-between">
-                <div class="col-12">
-                  <h2 class="display-1">Resources & Support</h2>
-                  <p>
-                    Accessing the right resources and support is essential for maintaining mental health and coping with life’s challenges. Whether you are experiencing stress, anxiety, or other mental health concerns, various forms of help are available to assist you in
-                    your journey toward well-being.
-                  </p>
-                </div>
-
-                <!-- Accordion -->
-                <div class="col-12">
-                  <div class="accordion accordion-flush shadow rounded-1" id="resources">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed shadow-0-0 rounded-top-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Professional Support Services
-                      </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#resources">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>
-                              Therapists and Counselors: Licensed professionals can provide therapy, such as Cognitive Behavioral Therapy (CBT), to help manage stress, anxiety, and other mental health challenges.
-                            </li>
-                            <li>
-                              Psychiatrists: Medical doctors specializing in mental health who can diagnose conditions and prescribe medication if needed.
-                            </li>
-                            <li>
-                              Support Hotlines: Many regions offer 24/7 hotlines for immediate emotional support, such as the National Suicide Prevention Lifeline.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Community-Based Resources
-                      </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#resources">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>
-                              Support Groups: Local or online groups for people dealing with similar challenges can provide shared experiences and encouragement.
-                            </li>
-                            <li>
-                              Community Centers: Many community centers offer mental health workshops, support meetings, and resources for emotional wellness.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Online Mental Health Resources
-                      </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#resources">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>
-                              Educational Websites: Sites like Mental Health America and the National Alliance on Mental Illness (NAMI) offer articles, tools, and self-assessment resources.
-                            </li>
-                            <li>
-                              Teletherapy Platforms: Online therapy services connect individuals with licensed therapists for remote support.
-                            </li>
-                            <li>
-                              Mental Health Apps: Apps like Headspace and Calm provide guided meditation, breathing exercises, and stress management tools.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Self-Help Strategies
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#resources">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>
-                              Journaling: Writing down thoughts and feelings can help clarify emotions and track progress.
-                            </li>
-                            <li>
-                              Mindfulness Practices: Techniques like meditation and deep breathing can reduce stress and improve focus.
-                            </li>
-                            <li>
-                              Healthy Lifestyle Choices: Regular exercise, balanced nutrition, and adequate sleep play a critical role in mental health.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header m-0">
-                        <button class="accordion-button collapsed shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        Workplace Resources
-                      </button>
-                      </h2>
-                      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#resources">
-                        <div class="accordion-body">
-                          <ul>
-                            <li>
-                              Employee Assistance Programs (EAPs): Many employers offer EAPs providing confidential support and counseling services.
-                            </li>
-                            <li>
-                              Wellness Workshops: Workplace wellness initiatives can include stress management classes and mindfulness sessions.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- end -->
-
-                <div class="col-12 mt-4">
-                  <h3>When to Seek Help</h3>
-                  <p>
-                    Seeking help is a sign of strength. If you experience persistent stress, anxiety, or symptoms that interfere with daily life, consider reaching out for professional support. Early intervention can make a significant difference in overall well-being.
-                  </p>
-                  <p>
-                    Support and resources are available to help you manage your mental health effectively. Whether through professional help, community networks, or self-care strategies, accessing the right support can empower you to navigate life’s challenges with resilience
-                    and strength.
-                  </p>
-                </div>
-              </div>
-            </section>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </main>
-  <!-- FOOTER Contact -->
-  <footer id="footer" class="col-12 shadow mt-auto">
-    <div class="row text-center d-flex justify-content-around">
-      <div class="col-12">
-        <h3 class="display-4">Contact us!</h3>
-        <h4 class="text-black">Every Mind Matters</h4>
-        <a href="booking.html" class="btn btn-primary shadow mb-2 mt-4 ms-lg-3">Book Appointment</a>
-      </div>
+      </main class="main-page">
+      <!-- FOOTER Contact -->
+      <footer id="footer" class="col-12 shadow mt-auto">
+        <div class="row text-center d-flex justify-content-around">
+          <div class="col-12">
+            <h3 class="display-4">Contact us!</h3>
+            <h4 class="text-black">Every Mind Matters</h4>
+            <a href="booking.html"
+              class="btn btn-primary shadow mb-2 mt-4 ms-lg-3">Book
+              Appointment</a>
+          </div>
 
-      <div class="col-12 col-md-4 col-lg-4">
-        <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
-        <a href="https://www.google.com/"><i class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br />
-        <a href=""><i class="fa-solid fa-book-medical"></i> Explore mental health</a><br />
-        <a href=""><i class="fa-regular fa-newspaper"></i> Publications</a><br />
-        <a href=""><i class="fa-solid fa-hospital"></i> NHS Mental Health</a><br />
-        <a href="https://ourworldindata.org/mental-health">
-          <i class="fa-solid fa-chart-simple"></i> Mental healthData
-        </a>
-      </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
+            <a href="https://www.google.com/"><i
+                class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br />
+            <a href><i class="fa-solid fa-book-medical"></i> Explore mental
+              health</a><br />
+            <a href><i class="fa-regular fa-newspaper"></i>
+              Publications</a><br />
+            <a href><i class="fa-solid fa-hospital"></i> NHS Mental
+              Health</a><br />
+            <a href="https://ourworldindata.org/mental-health">
+              <i class="fa-solid fa-chart-simple"></i> Mental healthData
+            </a>
+          </div>
 
-      <div class="col-12 col-md-4 col-lg-4">
-        <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
-        <a href=""><i class="fa-solid fa-at"></i> john.smith@email.com</a><br />
-        <a href=""><i class="fa-solid fa-phone"></i> 01234 567 899</a><br />
-        <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a><br />
-        <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a><br />
-        <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a><br />
-      </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
+            <a href><i class="fa-solid fa-at"></i>
+              john.smith@email.com</a><br />
+            <a href><i class="fa-solid fa-phone"></i> 01234 567 899</a><br />
+            <a href><i class="fa-brands fa-facebook"></i> Facebook</a><br />
+            <a href><i class="fa-brands fa-twitter"></i> Twitter</a><br />
+            <a href><i class="fa-brands fa-instagram"></i> Instagram</a><br />
+          </div>
 
-      <div class="col-12 col-md-4 col-lg-4">
-        <h5><i class="fa-solid fa-map-location"></i> About us</h5>
-        <address>
-          <p>
-            69 Pavement Street<br />
-            Brick town<br />
-            Concrete County<br />
-            PO13 37OP
-          </p>
-          <a href="https://www.google.com/"><i class="fa-solid fa-map-pin"></i> Google Maps Link</a>
-        </address>
-      </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <h5><i class="fa-solid fa-map-location"></i> About us</h5>
+            <address>
+              <p>
+                69 Pavement Street<br />
+                Brick town<br />
+                Concrete County<br />
+                PO13 37OP
+              </p>
+              <a href="https://www.google.com/"><i
+                  class="fa-solid fa-map-pin"></i> Google Maps Link</a>
+            </address>
+          </div>
 
-  </footer>
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- Font Awesome kit -->
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <!-- Bootstrap JS -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/aa9af45995.js"
+          crossorigin="anonymous"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/scripts.js"></script>
+      </body>
 
-</html>
+    </html>
