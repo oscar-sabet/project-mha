@@ -79,21 +79,21 @@ function typeEffect () {
 
 typeEffect()
 
-const quotes = [
-  'The best way to predict the future is to invent it. - Alan Kay',
-  'Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll',
-  'Strive not to be a success, but rather to be of value. - Albert Einstein',
-  'The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt',
-  'Do what you can, with what you have, where you are. - Theodore Roosevelt'
-]
+// const quotes = [
+//   'The best way to predict the future is to invent it. - Alan Kay',
+//   'Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll',
+//   'Strive not to be a success, but rather to be of value. - Albert Einstein',
+//   'The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt',
+//   'Do what you can, with what you have, where you are. - Theodore Roosevelt'
+// ]
 
-const quoteElement = document.getElementById('Hero-h2')
-const generateQuoteButton = document.getElementById('generateQuote')
+// const quoteElement = document.getElementById('Hero-h2')
+// const generateQuoteButton = document.getElementById('generateQuote')
 
-generateQuoteButton.addEventListener('click', () => {
-  const randomIndex = Math.floor(Math.random() * quotes.length)
-  quoteElement.textContent = quotes[randomIndex]
-})
+// generateQuoteButton.addEventListener('click', () => {
+//   const randomIndex = Math.floor(Math.random() * quotes.length)
+//   quoteElement.textContent = quotes[randomIndex]
+// })
 
 // Dark Mode
 // const toggleButton = document.getElementById('toggle-btn')
