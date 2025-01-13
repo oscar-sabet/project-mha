@@ -5,6 +5,7 @@
 :root {
   --hl-color: #3aafa9;
   --hl-color-dark: #2b7a78;
+  --hl-color-alt: rgb(57, 159, 154);
   --near-black: #17252a;
   
   --fg-color-darker: #393232;
@@ -74,7 +75,7 @@ body {
 
 #home {
   
-  margin-top: 100vh;
+  margin-top: calc(100vh / 2 - 56px);
   z-index: 2;
 }
 body .main-page{
@@ -129,7 +130,15 @@ a {
 .btn-primary:hover {
   background-color: var(--hl-color-dark);
 }
-
+.btn-primary:active {
+  background-color: var(--hl-color-dark);
+}
+.btn-primary:focus {
+  background-color: var(--hl-color-dark);
+}
+.btn-primary:active {
+  background-color: var(--hl-color-alt) !important;
+}
 ::selection {
   /* Custom highlight Color */
   background-color: var(--hl-color);
@@ -169,7 +178,7 @@ background-color: var(--dark-card-bg) !important;
 
 #navbar .dropdown-menu {
   background-color: var(--fg-color);
-  color: var(--hl-color);
+  color: var (--hl-color);
   border: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
@@ -177,7 +186,12 @@ background-color: var(--dark-card-bg) !important;
 #navbar .dropdown-item {
   color: var(--near-black);
 }
-
+#navbar .btn-primary {
+  background-color: var(--hl-color);
+}
+#navbar .btn-primary:hover {
+  background-color: var(--hl-color-alt);
+}
 
 /* Off-screen menu */
 
@@ -209,14 +223,17 @@ background-color: var(--dark-card-bg) !important;
 
 #header {
   background-color: var(--hl-color);
+  background: url("../images/outer space with a strong teal color theme.webp") no-repeat center center / cover;;
   padding: 0rem 0;
   position: fixed;
   /* z-index: -1; */
   padding-top: 40px;
   /* calc used to remove the header height */
-  height: calc(100vh - 40px);
+  /* height: calc(100vh - calc(100vh / 2)); */
+  height: calc(100vh / 2 - 56px);
+
   width: 100vw;
-  padding: 25vw 0;
+  /* padding: 25vw 0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,6 +254,9 @@ background-color: var(--dark-card-bg) !important;
   margin: 15px 0;
 }
 
+.example-element {
+  height: calc(100vh / 2 - 256px);
+}
 
 /* MAIN */
 
@@ -311,6 +331,10 @@ section {
   background-color: var(--card-bg);
   color: var(--card-fg);
 }
+.nav .nav-item {
+  background-color: var(--hl-color-light) !important;
+  /* color: var(--near-black); */
+}
 .accordion-button:focus {
   box-shadow: 0 0 0 0rem rgba(58, 175, 169, 0.5);
 }
@@ -373,7 +397,7 @@ section {
 
 /* .testimonial {
   background-color: var(--fg-color-darker);
-  color: var(--fg-color);
+  color: var (--fg-color);
   /* height: 400px;
   width: 300px */
 /*}
@@ -401,10 +425,10 @@ section {
   color: var(--fg-color);
 }
 #myTab nav-link {
-  color: var(--fg-color);
+  color: var(--hl-color-dark);
 }
 #myTab button {
-  color: var(--fg-color);
+  color: var(--near-black);
   /* color: var(--near-black); */
 }
 #myTab button:hover {

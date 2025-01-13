@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleButton.textContent = isDarkMode
       ? 'Enable Dark Mode'
       : 'Disable Dark Mode'
+
     for (let main of mainElements) {
       main.classList.toggle('dark-mode')
     }
