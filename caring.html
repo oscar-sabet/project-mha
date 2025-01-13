@@ -20,7 +20,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
   <!-- Navbar -->
   <nav id="navbar" class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
@@ -64,6 +64,10 @@
             <li class="nav-item">
               <a class="nav-link" href="statistics.html">Statistics</a>
             </li>
+            <li>
+                <button id="toggle-btn" class="btn btn-primary">Toggle Dark
+                  Mode</button>
+              </li>
           </ul>
         </div>
       </div>
@@ -71,7 +75,7 @@
   </nav>
 
   <!-- MAIN -->
-  <main>
+  <main class="main-page">
 
     <!-- SECTION Caring-intro -->
     <section id="caring-intro" class="container text-center d-flex justify-content-between">
@@ -426,6 +430,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!-- Font Awesome kit -->
   <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
