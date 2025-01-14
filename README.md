@@ -11,6 +11,7 @@ Website project by Oscar Sabet
 5. [Site Contents](#contents)
 6. [Repository & Project Board](#repository)
 7. [Sources](#sources)
+8. [Full Screenshots](#screenshots)
 
 ## Introduction
 
@@ -154,3 +155,17 @@ The project Board can be found here.
 ## sources
 
 All code was either coded by me or some by an AI. The content of the site is 100% AI generated.
+
+## screenshots
+
+### Homepage full Mobile
+
+![Full Mobile Screenshot](assets/images/readme/home-full-mobile.png)
+
+### Homepage Full Desktop
+
+![Full Desktop Screenshot](assets/images/readme/home-full-desktop.png)
+
+### Homepage Full Tablet
+
+![Full Tablet Screenshot](assets/images/readme/home-full-tablet.png)
