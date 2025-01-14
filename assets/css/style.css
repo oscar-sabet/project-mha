@@ -203,7 +203,7 @@ a {
   background: url('../images/wp10945479.webp') no-repeat center center / cover;
   padding: 0rem 0;
   position: fixed;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   height: calc(100vh / 2 - 56px);
   width: 100vw;
   display: flex;

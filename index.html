@@ -23,8 +23,8 @@
     <!-- custom CSS -->
     <link rel='stylesheet' href='assets/css/style.css'>
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-    <link rel="preload" fetchpriority="high" as="image"
-      href="assets/images/wp10945479.webp" type="image/webp">
+    <!-- <link rel="preload" fetchpriority="high" as="image" -->
+    <!-- href="assets/images/wp10945479.webp" type="image/webp"> -->
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180"
       href="assets/images/favicon/apple-touch-icon.png">
@@ -115,7 +115,6 @@
         </div>
       </div>
     </header>
-
     <!-- Main -->
     <main id="home" class="main-page shadow">
 
@@ -541,16 +540,22 @@
             <div
               class="quick-links justify-content-center ms-6 text-start">
               <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
-              <a href="https://www.google.com/"><i
+              <a href="https://www.google.com/" target="_blank"
+                rel="noopener noreferrer"><i
                   class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br>
-              <a href><i class="fa-solid fa-book-medical"></i> Explore mental
+              <a href="https://www.mentalhealth.org.uk/explore-mental-health"
+                target="_blank" rel="noopener noreferrer"><i
+                  class="fa-solid fa-book-medical"></i> Explore mental
                 health</a><br>
-              <a href><i class="fa-regular fa-newspaper"></i>
-                Publications</a><br>
-              <a href><i class="fa-solid fa-hospital"></i> NHS Mental
-                Health</a><br>
-              <a href="https://ourworldindata.org/mental-health">
-                <i class="fa-solid fa-chart-simple"></i> Mental healthData
+              <a href="https://www.centreformentalhealth.org.uk/publications/"
+                target="_blank" rel="noopener noreferrer"><i
+                  class="fa-regular fa-newspaper"></i> Publications</a><br>
+              <a href="https://www.nhs.uk/mental-health/" target="_blank"
+                rel="noopener noreferrer"><i class="fa-solid fa-hospital"></i>
+                NHS Mental Health</a><br>
+              <a href="https://ourworldindata.org/mental-health" target="_blank"
+                rel="noopener noreferrer"><i
+                  class="fa-solid fa-chart-simple"></i> Mental health Data
               </a>
             </div>
           </div>
@@ -561,12 +566,19 @@
               class=" quick-links  justify-content-center">
 
               <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
-              <a href><i
-                  class="fa-solid fa-at"></i> john.smith@email.com</a><br>
-              <a href><i class="fa-solid fa-phone"></i> 01234 567 899</a><br>
-              <a href><i class="fa-brands fa-facebook"></i> Facebook</a><br>
-              <a href><i class="fa-brands fa-twitter"></i> Twitter</a><br>
-              <a href><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+              <a href="mailto:john.smith@email.com">Email John Smith</a><br>
+              <a href="tel:+01234567899" target="_blank"
+                rel="noopener noreferrer"><i class="fa-solid fa-phone"></i>
+                01234 567 899</a><br>
+              <a href="https://www.facebook.com/" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i>
+                Facebook</a><br>
+              <a href="https://x.com/?lang=en&mx=2" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i>
+                Twitter</a><br>
+              <a href="https://www.instagram.com/" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i>
+                Instagram</a><br>
             </div>
           </div>
 
