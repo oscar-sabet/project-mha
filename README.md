@@ -17,6 +17,8 @@ Website project by Oscar Sabet
 
 The website makes use of HTML, CSS, bootstrap and a little JS. It's split into 5 pages with a home page. This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstrap - Individual Project.
 
+![Website on Devices](assets/images/readme/devices.png)
+
 ## Planning
 
 ### Design & Purpose
@@ -169,3 +171,19 @@ All code was either coded by me or some by an AI. The content of the site is 100
 ### Homepage Full Tablet
 
 ![Full Tablet Screenshot](assets/images/readme/home-full-tablet.png)
+
+### Testimonials Full Desktop
+
+![Testimonials Page](assets/images/readme/testimonials-full.png)
+
+### Statistics Full Desktop
+
+![Statistics Page](assets/images/readme/statistics-full.png)
+
+### Learning Full Desktop
+
+![Learning Page](assets/images/readme/learning-full.png)
+
+### Caring Full Desktop
+
+![Caring Page](assets/images/readme/caring-full.png)

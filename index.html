@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <!-- custom CSS -->
     <link rel='stylesheet' href='assets/css/style.css'>
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image"
+      href="assets/images/wp10945479.webp" type="image/webp">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180"
       href="assets/images/favicon/apple-touch-icon.png">
@@ -158,6 +161,8 @@
             </div>
           </div>
 
+          <div class="spacer"></div>
+
           <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
             <div class="card shadow bg-transparent col-12 border-0">
               <div class="card-header shadow border-0 rounded-top-1">
@@ -280,77 +285,6 @@
             </div>
           </div>
 
-          <!-- Tips Card -->
-          <!-- <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
-            <div class="card">
-              <div class="mh-tips card-body rounded shadow text-start pb-6">
-                <h4 class="card-title">Mental Health Tip</h4>
-                <h5>Share Your Story</h5>
-                <p class="card-text mt-auto text-start m-0 pb-2">
-                  Sharing your mental health journey can be incredibly
-                  empowering and helpful to others.
-                </p>
-                <br>
-                <a class="btn btn-primary shadow" href="learning.html">Learn
-                  More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-
-            <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
-              <div class="card shadow bg-transparent col-12 border-0 h-100">
-                <div class="card-header shadow border-0 rounded-top-1">
-                  <h5 class="card-title pt-2">Michael Brown</h5>
-                </div>
-                <div class="card-body border-bottom-1">
-                  <img
-                    src="assets/images/freepik__profile-picture-face-front-on__10998.jpeg"
-                    alt="Profile Picture"
-                    class="img-fluid rounded-circle shadow xmy-2" />
-
-                  <p class="card-text border-top mt-3 pt-2 pb-3">
-                    Living with bipolar disorder has been a rollercoaster, but
-                    with the right support and resources, I've learned to manage
-                    it effectively. The mental health awareness website has been
-                    a valuable resource for me, providing practical tips and a
-                    sense of community.
-                    I hope my story can inspire others to seek help and know
-                    that they are not alone.
-                  </p>
-                  <a class="btn btn-primary shadow"
-                    href="testimonials.html#testimonial#1">Learn More</a>
-                </div>
-              </div>
-            </div> -->
-
-          <!-- <div class="card-div col-12 col-md-6 col-lg-6 col-xl-3 p-2">
-            <div class="card shadow bg-transparent col-12 border-0 h-100">
-              <div class="card-header shadow border-0 rounded-top-1">
-                <h5 class="card-title pt-2">Emily Johnson</h5>
-              </div>
-              <div class="card-body border-bottom-1">
-                <img
-                  src="assets/images/freepik__profile-picture-face-front-on__10999.jpeg"
-                  alt="Profile Picture"
-                  class="img-fluid rounded-circle shadow xmy-2" />
-
-                <p class="card-text border-top mt-3 pt-2 pb-3">
-                  Coping with PTSD has been a difficult journey, but with the
-                  right support and resources, I've learned to manage it
-                  effectively. The mental health awareness website has been a
-                  valuable resource for me, providing practical tips and a
-                  sense of community.
-                  I hope my story can inspire others to seek help and know
-                  that they are not alone.
-                </p>
-                <a class="btn btn-primary shadow"
-                  href="testimonials.html#testimonial#2">Learn More</a>
-              </div>
-            </div>
-          </div> -->
-
         </div>
       </section>
 
@@ -362,7 +296,6 @@
             <h2 class="display-1 col-12">Caring With Mental Health</h2>
           </div>
           <div class="col-12 col-md-7 col-lg-8">
-
             <p>
               Caring for mental health is crucial for maintaining overall
               well-being. It involves recognizing the importance of mental
@@ -457,17 +390,6 @@
               professionals can identify patterns and correlations that
               inform best practices and improve mental health care.
             </p>
-            <!-- <p>
-                  Access to comprehensive mental health data is essential for
-                  developing evidence-based strategies to address mental health
-                  challenges. It allows policymakers, practitioners, and
-                  advocates to make informed decisions about resource
-                  allocation, program development, and public health
-                  initiatives. By leveraging mental health data, we can work
-                  towards a more informed and compassionate approach to mental
-                  health care, ultimately improving the quality of life for
-                  individuals affected by mental health conditions.
-                </p> -->
           </div>
 
           <!-- Stats Card -->
@@ -486,43 +408,7 @@
             </div>
           </div>
 
-          <!-- </div> -->
           <div class="row d-flex justify-content-between p-2 ">
-            <!-- <div class="col-12">
-              <h2 class="display-1">Mental Health Statistics</h2>
-            </div>
-
-            <div class="col-12 col-md-7 col-lg-8">
-              <p>
-                Mental health is an essential part of people’s lives and
-                society. Poor mental health affects our well-being, our ability
-                to work, and our relationships with friends, family, and
-                community.
-              </p>
-              <p>
-                To support them, it’s essential to have good data to understand
-                these conditions – how, when, and why they occur, how many
-                people are affected by them, and how they can be treated
-                effectively and safely.
-              </p>
-            </div> -->
-
-            <!-- Tips Card -->
-            <!-- <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
-              <div class="card">
-                <div class="mh-tips card-body rounded shadow text-start pb-6">
-                  <h4 class="card-title">Mental Health Tip</h4>
-                  <h5>Seek Professional Help</h5>
-                  <p class="card-text mt-auto text-start m-0 pb-2">
-                    If you are struggling with your mental health, don't
-                    hesitate to seek professional support.
-                  </p>
-                  <br>
-                  <a class="btn btn-primary shadow" href="learning.html">Learn
-                    More</a>
-                </div>
-              </div>
-            </div> -->
 
             <div class="col-12">
               <h2 class="display-1">Mental Health Data</h2>
@@ -541,17 +427,6 @@
                   to
                   support those in need.
                 </p>
-                <!-- <p>
-                  Mental health statistics also help to highlight the importance
-                  of mental health awareness and the need for comprehensive
-                  mental health services. They reveal the significant burden
-                  that mental health disorders place on individuals, families,
-                  and communities, and underscore the necessity of early
-                  intervention and effective treatment. By staying informed
-                  about mental health statistics, we can better advocate for
-                  policies and programs that promote mental well-being and
-                  reduce the stigma associated with mental health issues.
-                </p> -->
 
               </div>
 
@@ -588,7 +463,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary shadow mb-2 mt-4"
               data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Contact us!
+              Contact us
             </button>
 
             <!-- Modal -->

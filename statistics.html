@@ -236,53 +236,145 @@
 
     </main>
     <!-- FOOTER Contact -->
-    <footer id="footer" class="col-12 shadow mt-auto">
-      <div class="row text-center d-flex justify-content-around">
+    <footer id="footer" class="col-12 mt-auto">
+      <div class="row text-center d-flex gx-5 justify-content-evenly ">
+
         <div class="col-12">
           <h3 class="display-4">Contact us!</h3>
           <h4 class="text-black">Every Mind Matters</h4>
-          <a href="booking.html" class="btn btn-primary shadow mb-2 mt-4">Book
-            Appointment</a>
-        </div>
 
-        <div class="col-12 col-md-4 col-lg-4">
-          <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
-          <a href="https://www.google.com/"><i
-              class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br />
-          <a href><i class="fa-solid fa-book-medical"></i> Explore mental
-            health</a><br />
-          <a href><i class="fa-regular fa-newspaper"></i> Publications</a><br />
-          <a href><i class="fa-solid fa-hospital"></i> NHS Mental
-            Health</a><br />
-          <a href="https://ourworldindata.org/mental-health">
-            <i class="fa-solid fa-chart-simple"></i> Mental healthData
-          </a>
-        </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary shadow mb-2 mt-4"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contact us
+          </button>
 
-        <div class="col-12 col-md-4 col-lg-4">
-          <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
-          <a href><i class="fa-solid fa-at"></i> john.smith@email.com</a><br />
-          <a href><i class="fa-solid fa-phone"></i> 01234 567 899</a><br />
-          <a href><i class="fa-brands fa-facebook"></i> Facebook</a><br />
-          <a href><i class="fa-brands fa-twitter"></i> Twitter</a><br />
-          <a href><i class="fa-brands fa-instagram"></i> Instagram</a><br />
-        </div>
+          <!-- Modal -->
+          <div class="modal" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content rounded-1 border-0 shadow-lg">
+                <div class="modal-header rounded-1 border-0">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Contact
+                    us!</h1>
+                  <button type="button" class="btn-close"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body card-body">
+                  <form id="contact-form" action="success.html" method="GET">
+                    <div class="row text-start">
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input class="form-control shadow" id="name"
+                          name="name"
+                          type="text" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input class="form-control shadow" id="email"
+                          name="email" type="email" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="phone" class="form-label">Phone
+                          number</label>
+                        <input class="form-control shadow" id="phone"
+                          name="phone" type="tel" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="event-type" class="form-label">
+                          Reason</label>
+                        <select id="event-type"
+                          class="form-select shadow border-0" required>
+                          <option value selected>Select</option>
+                          <option value="general information">General
+                            Information</option>
+                          <option value="care-other">Caring for
+                            Others</option>
+                          <option value="care-self">Self-Care</option>
+                          <option value="booking">Bookings</option>
 
-        <div class="col-12 col-md-4 col-lg-4">
-          <h5><i class="fa-solid fa-map-location"></i> About us</h5>
-          <address>
-            <p>
-              69 Pavement Street<br />
-              Brick town<br />
-              Concrete County<br />
-              PO13 37OP
-            </p>
+                        </select>
+                      </div>
+                      <div class="col-12 mb-3">
+                        <label for="message"
+                          class="form-label">Message</label>
+                        <textarea class="form-control  p-2 shadow"
+                          rows="6"
+                          id="message" name="message" required></textarea>
+                      </div>
+                    </div>
+
+                    <div class="modal-footer border-top-0">
+                      <button type="button" class="btn btn-secondary shadow"
+                        data-bs-dismiss="modal">Close</button>
+                      <button type="submit"
+                        class="btn btn-primary shadow">Submit</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+          <div
+            class="quick-links justify-content-center ms-6 text-start">
+            <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
             <a href="https://www.google.com/"><i
-                class="fa-solid fa-map-pin"></i> Google Maps Link</a>
-          </address>
+                class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br>
+            <a href><i class="fa-solid fa-book-medical"></i> Explore mental
+              health</a><br>
+            <a href><i class="fa-regular fa-newspaper"></i>
+              Publications</a><br>
+            <a href><i class="fa-solid fa-hospital"></i> NHS Mental
+              Health</a><br>
+            <a href="https://ourworldindata.org/mental-health">
+              <i class="fa-solid fa-chart-simple"></i> Mental healthData
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center">
+          <div
+            class=" quick-links  justify-content-center">
+
+            <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
+            <a href><i
+                class="fa-solid fa-at"></i> john.smith@email.com</a><br>
+            <a href><i class="fa-solid fa-phone"></i> 01234 567 899</a><br>
+            <a href><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+            <a href><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+            <a href><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center"
+          style="padding: 0 !important;">
+          <div
+            class="quick-links  justify-content-center">
+            <h5><i class="fa-solid fa-map-location"></i> About us</h5>
+            <address>
+              <p>
+                69,345 Pavement Street<br>
+                Brick town<br>
+                Concrete County<br>
+                PO13 37AP
+              </p>
+              <a href="https://www.google.com/"><i
+                  class="fa-solid fa-map-pin"></i> Google Maps Link</a>
+            </address>
+          </div>
         </div>
       </div>
+
     </footer>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -59,7 +59,9 @@
   background-color: var(--dark-card-bg);
   color: var(--dark-fg-color);
 }
-
+.spacer {
+  margin: 20px 0;
+}
 /* GENERAL */
 
 html,
@@ -343,11 +345,14 @@ section {
 }
 #testimonials .btn {
   position: relative;
-  /* bottom: 10px; */
+  bottom: 10px;
   text-align: center;
-  /* left: 10px; */
+  left: 10px;
 }
-
+#testimonials p ~ .share-btn {
+  position: absolute;
+  text-align: center;
+}
 #testimonials .modal,
 #testimonials select,
 #testimonials option {
@@ -557,14 +562,7 @@ body.dark-mode {
   background-color: var(--dark-mode-bg);
   color: var(--dark-fg-color) !important;
 }
-/* @media screen and (max-width: 319px) {
-  .quick-links {
-    padding-left: 0;
-  }
-  .quick-links h5 {
-    margin-top: 10px;
-  }
-} */
+
 @media screen and (min-width: 320px) {
   #footer h5 {
     margin-top: 2rem;
@@ -597,5 +595,3 @@ body.dark-mode {
 
 @media screen and (min-width: 1200px) {
 }
-
-/* TEST */
