@@ -49,6 +49,7 @@
 .mh-tips {
   border: 2px solid var(--hl-color);
   height: auto;
+  padding: 50px auto;
 }
 .testimonials-body {
   background-color: var(--dark-mode-bg);
@@ -89,6 +90,7 @@ body * {
 body {
   padding-top: 56px;
   color: var(--near-black);
+  caret-color: transparent;
 }
 
 p {
@@ -220,10 +222,9 @@ a {
   margin: 15px 0;
 }
 
-.example-element {
-  height: calc(100vh / 2 - 256px);
+.card-overlay {
+  margin: 40px 0;
 }
-
 .card-overlay img {
   aspect-ratio: 9 / 4;
   object-fit: cover;
