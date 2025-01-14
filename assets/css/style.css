@@ -433,7 +433,9 @@ section {
   background-color: var(--fg-color);
   border-radius: 50%;
 }
-
+#footer .quick-links {
+  padding-left: 20px;
+}
 /* Modal */
 
 #footer .modal,
