@@ -177,7 +177,9 @@ a {
 }
 
 /* Off-screen menu */
-
+#navbar .offcanvas-body {
+  z-index: 1000;
+}
 #navbar .offcanvas-header {
   background-color: var(--hl-color-dark);
   color: var(--fg-color);
@@ -446,7 +448,7 @@ section {
   background-color: var(--hl-color-dark);
   color: var(--fg-color);
   padding: 3rem;
-  z-index: 9999;
+  z-index: 9998;
 }
 
 #footer a {
@@ -506,7 +508,7 @@ section {
 /* Modal */
 
 #footer .modal {
-  z-index: 9999;
+  z-index: 9998;
 }
 
 #footer .modal,
