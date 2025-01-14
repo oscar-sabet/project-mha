@@ -105,8 +105,8 @@
     <main class="main-page">
       <!-- SECTION  Testimonials-->
       <section id="testimonials"
-        class="container text-center d-flex justify-content-center ">
-
+        class="container text-center justify-content-center ">
+      <div class="row col-12">
         <div class="col-12">
           <h2 class="display-1">Testimonials</h2>
           <p>
@@ -120,13 +120,96 @@
             estimated
           </p>
 
-          <div id="testimonial#1" class="row p-1">
+          <!-- Button trigger modal -->
+          <!-- <div class="col-12"> -->
+            <button type="button" class="btn btn-primary shadow mb-2 mt-4"
+              data-bs-toggle="modal" data-bs-target="#testimonial-form">
+              Share Your Testimonial
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="testimonial-form" tabindex="-1"
+              aria-labelledby="testimonial-formLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content rounded-1 border-0 shadow-lg">
+                  <div class="modal-header rounded-1 border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact
+                      us!</h1>
+                    <button type="button" class="btn-close"
+                      data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="contact-form" action="success.html" method="GET">
+                      <div class="row text-start">
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input class="form-control shadow" id="name"
+                            name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="age" class="form-label">Date of
+                            Birth</label>
+                          <input class="form-control shadow" id="age" name="age"
+                            type="date" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="sex" class="form-label">Sex</label>
+                          <select id="sex" class="form-select shadow border-0"
+                            required>
+                            <option value selected>Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="location"
+                            class="form-label">Location</label>
+                          <input class="form-control shadow" id="location"
+                            name="location" type="location" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="occupation"
+                            class="form-label">Occupation</label>
+                          <input class="form-control shadow" id="occupation"
+                            name="occupation" type="occupation" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="Condition"
+                            class="form-label">Condition</label>
+                          <input class="form-control shadow" id="Condition"
+                            name="Condition" type="Condition" required>
+                        </div>
+
+                        <div class="col-12 mb-3">
+                          <label for="message"
+                            class="form-label">Message</label>
+                          <textarea class="form-control shadow" rows="6"
+                            id="message" name="message" required></textarea>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer border-top-0">
+                        <button type="button" class="btn btn-secondary shadow"
+                          data-bs-dismiss="modal">Close</button>
+                        <button type="submit"
+                          class="btn btn-primary shadow">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div id="testimonial#1" class="row col-12 p-1">
             <div
-              class="profile p-3 col-12 col-md-4 col-lg-3 d-flex flex-column shadow">
+              class="profile p-3 col-12 col-md-4 col-lg-3  shadow">
               <img
                 src="assets/images/freepik__profile-picture-face-front-on__10998.jpeg"
                 alt="Profile Picture"
-                class="img-fluid rounded-circle shadow xmy-2" />
+                class="img-fluid rounded-circle shadow xmy-2">
               <h3 class="border-top my-3 pt-2">Michael Brown</h3>
               <div class="mt-auto">
                 <small>Age: 45</small><br>
@@ -156,7 +239,7 @@
                 articles and resources available have given me a deeper insight
                 into mental health and the various factors that can affect it.
               </p>
-              <p>
+              <!-- <p>
                 Additionally, the Caring section has provided me with valuable
                 information on how to support my loved ones who are also
                 struggling with mental health issues. It has taught me the
@@ -167,7 +250,7 @@
                 that I am not alone in my struggles. Seeing the data on the
                 prevalence of mental health conditions has helped me realize
                 that many others are going through similar experiences.
-              </p>
+              </p> -->
               <p>
                 Overall, the mental health awareness website has been an
                 invaluable resource for me, and I am grateful for the support
@@ -179,7 +262,7 @@
             </div>
           </div>
 
-          <div id="testimonial#2" class="row p-1">
+          <div id="testimonial#2" class="row col-12 p-1">
             <div
               class="profile p-3 shadow col-12 col-md-4 col-lg-3 d-flex flex-column">
               <img
@@ -210,7 +293,7 @@
                 I hope my story can inspire others to seek help and know that
                 they are not alone.
               </p>
-              <p>
+              <!-- <p>
                 The Learning section has been particularly helpful in
                 understanding my condition and finding ways to cope. The
                 articles and resources available have given me a deeper insight
@@ -221,7 +304,7 @@
                 information on how to support my loved ones who are also
                 struggling with mental health issues. It has taught me the
                 importance of empathy, patience, and understanding.
-              </p>
+              </p> -->
               <p>
                 The Statistics section has also been eye-opening, showing me
                 that I am not alone in my struggles. Seeing the data on the
@@ -239,7 +322,7 @@
             </div>
           </div>
 
-          <div id="testimonial#3" class="row p-1">
+          <div id="testimonial#3" class="row col-12 p-1">
             <div
               class="profile p-3 shadow col-12 col-md-4 col-lg-3 d-flex flex-column">
               <img
@@ -276,7 +359,7 @@
                 understanding of mental health and the various factors that
                 influence it.
               </p>
-              <p>
+              <!-- <p>
                 Moreover, the Caring section has given me valuable insights on
                 how to support my loved ones who are also dealing with mental
                 health issues. It has taught me the importance of empathy,
@@ -287,7 +370,7 @@
                 am not alone in my struggles. Seeing the data on the prevalence
                 of mental health conditions has helped me realize that many
                 others are experiencing similar challenges.
-              </p>
+              </p> -->
               <p>
                 Overall, the mental health awareness website has been an
                 invaluable resource for me, and I am grateful for the support
@@ -299,7 +382,7 @@
             </div>
           </div>
 
-          <div id="testimonial#4" class="row p-1 mb-4">
+          <div id="testimonial#4" class="row col-12 p-1 mb-4">
             <div
               class="profile p-3 shadow col-12 col-md-4 col-lg-3 d-flex flex-column">
               <img
@@ -329,7 +412,7 @@
                 I hope my story can inspire others to seek help and know that
                 they are not alone.
               </p>
-              <p>
+              <!-- <p>
                 The Learning section has been particularly helpful in
                 understanding my condition and finding ways to cope. The
                 articles and resources available have given me a deeper insight
@@ -340,7 +423,7 @@
                 information on how to support my loved ones who are also
                 struggling with mental health issues. It has taught me the
                 importance of empathy, patience, and understanding.
-              </p>
+              </p> -->
               <p>
                 The Statistics section has also been eye-opening, showing me
                 that I am not alone in my struggles. Seeing the data on the

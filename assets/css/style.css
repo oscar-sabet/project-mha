@@ -339,6 +339,67 @@ section {
 #testimonials div div.row {
   padding-top: 40px !important;
 }
+#testimonials .btn {
+  position: relative;
+  /* bottom: 10px; */
+  text-align: center;
+  /* left: 10px; */
+}
+
+#testimonials .modal,
+#testimonials select,
+#testimonials option {
+  color: var(--near-black);
+  border: 0;
+}
+
+#testimonials .modal-header {
+  background-color: var(--hl-color);
+  color: var(--fg-color);
+}
+
+#testimonials input,
+#testimonials select,
+#testimonials option {
+  border-radius: 50px;
+  border: 0;
+  padding: 5px 20px;
+  background-color: var(--fg-color);
+  color: var(--near-black);
+  transition: 0.3s ease-in-out;
+  /* transition: box-shadow 0.3s ease; */
+}
+
+#testimonials textarea {
+  transition: 0.3s ease-in-out;
+  transition: inset 0.3s ease-in-out;
+  border: 0;
+}
+
+#testimonials input:hover,
+#testimonials select:hover,
+#testimonials textarea:hover {
+  /* box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.15) !important; */
+  box-shadow: inset 0 0.15rem 0.2rem rgba(0, 0, 0, 0.15) !important;
+  transition: box-shadow 0.3s ease;
+}
+
+#testimonials input:focus,
+#testimonials select:focus,
+#testimonials textarea:focus {
+  /* box-shadow: 0 0.1rem 0.3rem var(--hl-color) !important; */
+  box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#testimonials .btn-secondary {
+  background-color: var(--red);
+  color: var(--fg-color);
+}
+
+#testimonials .btn-secondary:hover {
+  background-color: var(--red-darker);
+  color: var(--fg-color);
+}
 
 /* Nav Tabs */
 
@@ -441,10 +502,7 @@ section {
   background-color: var(--fg-color);
   border-radius: 50%;
 }
-#footer .quick-links {
-  /* padding-left: 20px; */
-  padding: 0;
-}
+
 /* Modal */
 
 #footer .modal {
