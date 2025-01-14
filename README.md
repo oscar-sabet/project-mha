@@ -1,17 +1,16 @@
 # Mental Health Awareness
 
-Project by Oscar Sabet
+Website project by Oscar Sabet
 
-## TOC
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Planning](#planning)
-3. [Development](#Development)
+3. [Development](#development)
 4. [Testing](#testing)
-5. 
-6. [Site Contents](#contents)
-7. [Repository & Project Board](#Repository)
-8. [Sources](#sources)
+5. [Site Contents](#contents)
+6. [Repository & Project Board](#repository)
+7. [Sources](#sources)
 
 ## Introduction
 
@@ -50,9 +49,33 @@ The website was changed between planning and release. this was done since there 
 
 ## Development
 
-The website was developed using HTML & CSS with the bootstrap framework. 
+The website was developed using HTML & CSS with the bootstrap framework.
 
-There was also some JS used to add the dark mode switch and add a smooth animation when using links within pages
+There was also some JS used to add the dark mode switch and add a smooth animation when using links within pages.
+
+A project board was set up and used during development.
+
+a github repo was used for version control.
+
+The website uses thorough customization of styling for the bootstrap classes.
+
+The home page was created first and this was used as template for the other pages. During development of the home page it became apparent that the wireframe design was going to be too busy so the design was changed.
+
+An AI was used to generate the sites content and assist in development. particularly to automate repetitive tasks like filling in several cards with content.
+
+## Testing
+
+The website was thoroughly tested before completion.
+
+- Manual code review to find bugs
+- Manual code review to check accessability requirements eg. alt text on images
+- check site with W3S HTML/CSS validator
+- All links work and external links open in a new tab
+- Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
+
+### Known Bugs
+
+**FILL ME**
 
 ## Contents
 
@@ -118,16 +141,16 @@ The statistics page contains a brief article followed by interactive graphs.
 
 ![The statistics page - desktop view](assets/images/readme/desktop-statistics.png)
 
-## Wireframe
+# Repository
 
-## Accessibility
+The Github repo can be found here.
 
-## Deployment
+[Github Repo](https://github.com/oscar-sabet/project-mha)
 
-## testing
+The project Board can be found here.
 
-## validation
-
-## Screenshots
+[Github Project Board](https://github.com/users/oscar-sabet/projects/2)
 
 ## sources
+
+All code was either coded by me or some by an AI. The content of the site is 100% AI generated.
