@@ -205,6 +205,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 
 #header h1 {
@@ -384,7 +385,7 @@ section {
   background-color: var(--hl-color-dark);
   color: var(--fg-color);
   padding: 3rem;
-  z-index: 1;
+  z-index: 9999;
 }
 
 #footer a {
@@ -395,11 +396,17 @@ section {
 #footer a:hover {
   color: var(--hl-color);
 }
+#footer button:hover {
+  background-color: var(--hl-color-alt);
+}
+#footer button:focus {
+  background-color: var(--hl-color-alt);
+}
 
-#footer .btn-primary:hover {
+/* #footer .btn-primary:hover {
   background-color: var(--fg-color);
   color: var(--near-black);
-}
+} */
 
 #footer .modal-footer .btn-primary:hover {
   background-color: var(--hl-color-dark);
@@ -435,9 +442,14 @@ section {
   border-radius: 50%;
 }
 #footer .quick-links {
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  padding: 0;
 }
 /* Modal */
+
+#footer .modal {
+  z-index: 9999;
+}
 
 #footer .modal,
 #footer select,
@@ -459,12 +471,14 @@ section {
   padding: 5px 20px;
   background-color: var(--fg-color);
   color: var(--near-black);
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease;
 }
 
 #footer textarea {
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease;
   border: 0;
+  background-color: var(--fg-color);
+  color: var(--near-black);
 }
 
 #footer input:hover,
@@ -483,7 +497,14 @@ body.dark-mode {
   background-color: var(--dark-mode-bg);
   color: var(--dark-fg-color) !important;
 }
-
+/* @media screen and (max-width: 319px) {
+  .quick-links {
+    padding-left: 0;
+  }
+  .quick-links h5 {
+    margin-top: 10px;
+  }
+} */
 @media screen and (min-width: 320px) {
   #footer h5 {
     margin-top: 2rem;
