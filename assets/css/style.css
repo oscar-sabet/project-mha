@@ -10,7 +10,6 @@
 
   --fg-color-darker: #393232;
   --hl-color-light: #e5f5ee;
-  --link-color: #43acdc;
   --red: #e83939;
   --red-darker: #bd1b1b;
 
@@ -49,7 +48,6 @@
 .mh-tips {
   border: 2px solid var(--hl-color);
   height: auto;
-  padding: 50px auto;
 }
 .testimonials-body {
   background-color: var(--dark-mode-bg);
@@ -76,14 +74,17 @@ body {
   margin-top: calc(100vh / 2 - 56px);
   z-index: 2;
 }
+
 body .main-page {
   background-color: var(--fg-color);
   color: var(--near-black);
 }
+
 body .main-page.dark-mode {
   background-color: var(--dark-mode-bg);
   color: var(--dark-fg-color);
 }
+
 body * {
   border-radius: 0;
   font-family: 'Lora', serif;
@@ -106,6 +107,7 @@ h4,
 h5 {
   font-family: 'Montserrat', serif;
 }
+
 h2 {
   padding-bottom: 30px;
 }
@@ -163,7 +165,7 @@ a {
 
 #navbar .dropdown-menu {
   background-color: var(--fg-color);
-  color: var (--hl-color);
+  color: var(--hl-color);
   border: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
@@ -191,10 +193,6 @@ a {
   background-color: var(--hl-color-dark);
   color: var(--fg-color);
 }
-
-/* .dropdown-item {
-  --bs-dropdown-link-disabled-color: var(--hl-color);
-} */
 
 /* HEADER */
 
@@ -276,10 +274,11 @@ section {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.accordion-button::after {
+/* .accordion-button::after {
   color: var(--hl-color-dark);
   background-color: var(--card-bg);
-}
+} */
+
 .accordion button {
   background-color: var(--card-bg);
   color: var(--near-black);
@@ -288,6 +287,24 @@ section {
   background-color: var(--card-bg);
   color: var(--card-fg);
 }
+/* Styles the little button the end. Replaces the default bootstrap one completely */
+.accordion-button:not(.collapsed)::after {
+  content: ' ^ ';
+  font-size: 1.5rem;
+  background-image: none;
+  text-align: center;
+  color: var(--fg-color);
+  background-color: transparent;
+}
+.accordion-button::after {
+  content: ' ^ ';
+  font-size: 1.5rem;
+  background-image: none;
+  background-color: transparent;
+  text-align: center;
+  color: #b1b1b1;
+}
+
 .nav .nav-item {
   background-color: var(--hl-color-light) !important;
 }
