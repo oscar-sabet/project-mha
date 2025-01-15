@@ -7,12 +7,13 @@ Website project by Oscar Sabet
 1. [Introduction](#introduction)
 2. [Planning](#planning)
 3. [Development](#development)
-4. [Testing](#testing)
-5. [Features](#features)
-6. [Site Contents](#contents)
-7. [Repository & Project Board](#repository)
-8. [Sources](#sources)
-9. [Full Screenshots](#screenshots)
+4. [Deployment](#deployment)
+5. [Testing](#testing)
+6. [Features](#features)
+7. [Site Contents](#contents)
+8. [Repository & Project Board](#repository)
+9. [Sources](#sources)
+10. [Full Screenshots](#screenshots)
 
 ## Introduction
 
@@ -67,6 +68,14 @@ The website uses thorough customization of styling for the bootstrap classes.
 The home page was created first and this was used as template for the other pages. During development of the home page it became apparent that the wireframe design was going to be too busy so the design was changed.
 
 An AI was used to generate the sites content and assist in development. particularly to automate repetitive tasks like filling in several cards with content.
+
+## Deployment
+
+The website is deployed to github pages. This is very simple process.
+
+Navigate to your github repo, click settings and navigate to pages. Then you simply select the branch and then save.
+
+![Github Pages](assets/images/readme/deploy-pages.png)
 
 ## Testing
 
