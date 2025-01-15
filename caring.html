@@ -1,105 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MHA | Caring</title>
-  <!-- Meta -->
-  <meta name="description" content="Mental health has a significant impact on people’s lives and wellbeing. To support people with mental illnesses, we need better data to understand them." />
-  <meta name="keywords" content="mental health, mental illness, wellbeing, support, data, understanding">
-  <meta name="author" content="Oscar Sabet - Code Institute">
-  <meta name="robots" content="index, follow">
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <!-- custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHA | Caring</title>
+    <!-- Meta -->
+    <meta name="description"
+      content="Mental health has a significant impact on people’s lives and wellbeing. To support people with mental illnesses, we need better data to understand them.">
+    <meta name="keywords"
+      content="mental health, mental illness, wellbeing, support, data, understanding">
+    <meta name="author" content="Oscar Sabet - Code Institute">
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png">
+  </head>
 
-<body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
-  <!-- Navbar -->
-  <nav id="navbar" class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <i class="fa-solid fa-shield-heart"></i> MHA | Caring
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-shield-heart"></i> MHA | Caring</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav ms-auto">
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Navigate Page
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="caring.html#caring-intro">Caring with Mental Health</a></li>
-                <li><a class="dropdown-item" href="caring.html#caring-self">Caring for Yourself</a></li>
-                <li><a class="dropdown-item" href="caring.html#caring-others ">Caring for others</a></li>
-              </ul>
-            </li>
-            <!-- Links -->
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="learning.html">Learning</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="caring.html">Caring</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="statistics.html">Statistics</a>
-            </li>
-            <li>
+  <body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav id="navbar"
+      class="navbar xbg-body-tertiary navbar-expand-lg shadow fixed-top"
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-solid fa-shield-heart"></i> MHA | Caring
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i
+                class="fa-solid fa-shield-heart"></i> MHA | Caring</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Navigate Page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="caring.html#caring-intro">Caring with Mental
+                      Health</a></li>
+                  <li><a class="dropdown-item"
+                      href="caring.html#caring-self">Caring for
+                      Yourself</a></li>
+                  <li><a class="dropdown-item"
+                      href="caring.html#caring-others ">Caring for
+                      others</a></li>
+                </ul>
+              </li>
+              <!-- Links -->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="learning.html">Learning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="caring.html">Caring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="statistics.html">Statistics</a>
+              </li>
+              <li>
                 <button id="toggle-btn" class="btn btn-primary">Toggle Dark
                   Mode</button>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- MAIN -->
-  <main class="main-page">
+    <!-- MAIN -->
+    <main class="main-page">
 
-    <!-- SECTION Caring-intro -->
-    <section id="caring-intro" class="container text-center d-flex justify-content-between">
-      <div class="row d-flex justify-content-between">
-        <div class="col-12">
-          <h2 class="display-1">Caring With Mental Health</h2>
-        </div>
-        <div class="col-12 col-md-7 col-lg-8">
-          <p>
-            Caring for mental health is crucial for maintaining overall well-being. It involves recognizing the importance of mental health and taking proactive steps to nurture it. This can include practices such as mindfulness, regular exercise, and seeking professional
-            help when needed.
-          </p>
-          <p>
-            When looking after your own mental health, it's essential to be aware of your emotions and stress levels. Engaging in activities that bring joy and relaxation can help manage stress and improve mental health. Additionally, maintaining a healthy lifestyle
-            with proper nutrition and sleep is vital.
-          </p>
-          <p>
-            Supporting someone else's mental health requires empathy and understanding. Listening without judgment and offering a safe space for them to express their feelings can be incredibly beneficial. Encouraging them to seek professional help if needed and
-            providing information about available resources can also make a significant difference.
-          </p>
-          <p>
-            This section provides valuable information and guidance on how to care for mental health effectively. Whether you are focusing on your own mental health or supporting someone else, the resources and tips provided here aim to help you navigate the challenges
-            and promote mental well-being.
-          </p>
+      <!-- SECTION Caring-intro -->
+      <section id="caring-intro"
+        class="container text-center d-flex justify-content-between">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12">
+            <h2 class="display-1">Caring With Mental Health</h2>
+          </div>
+          <div class="col-12 col-md-7 col-lg-8">
+            <p>
+              Caring for mental health is crucial for maintaining overall
+              well-being. It involves recognizing the importance of mental
+              health and taking proactive steps to nurture it. This can include
+              practices such as mindfulness, regular exercise, and seeking
+              professional
+              help when needed.
+            </p>
+            <p>
+              When looking after your own mental health, it's essential to be
+              aware of your emotions and stress levels. Engaging in activities
+              that bring joy and relaxation can help manage stress and improve
+              mental health. Additionally, maintaining a healthy lifestyle
+              with proper nutrition and sleep is vital.
+            </p>
+            <p>
+              Supporting someone else's mental health requires empathy and
+              understanding. Listening without judgment and offering a safe
+              space for them to express their feelings can be incredibly
+              beneficial. Encouraging them to seek professional help if needed
+              and
+              providing information about available resources can also make a
+              significant difference.
+            </p>
+            <p>
+              This section provides valuable information and guidance on how to
+              care for mental health effectively. Whether you are focusing on
+              your own mental health or supporting someone else, the resources
+              and tips provided here aim to help you navigate the challenges
+              and promote mental well-being.
+            </p>
           </div>
 
           <!-- Tips Card -->
@@ -109,7 +149,10 @@
                 <h4 class="card-title">Mental Health Tip</h4>
                 <h6>Connect with Others</h6>
                 <p class="card-text mt-auto text-start my-2 p-0 pb-6">
-                  Building and maintaining strong relationships can provide emotional support and reduce feelings of loneliness. Make time to connect with friends and family, whether in person or virtually.
+                  Building and maintaining strong relationships can provide
+                  emotional support and reduce feelings of loneliness. Make time
+                  to connect with friends and family, whether in person or
+                  virtually.
                 </p>
                 <br>
                 <a class="btn btn-primary shadow" href="learning.html">Learn
@@ -119,58 +162,77 @@
           </div>
 
         </div>
-      </div>
+      </section>
 
-    </section>
+      <!-- SECTION Caring Self -->
+      <section id="caring-self"
+        class="container text-center d-flex justify-content-between">
+        <div class="row d-flex justify-content-between">
 
-    <!-- SECTION Caring Self -->
-    <section id="caring-self" class="container text-center d-flex justify-content-between">
-      <div class="row d-flex justify-content-between">
+          <div class="col-12">
+            <h2 class="display-1">Caring for Yourself</h2>
+            <div class="row">
 
-        <div class="col-12">
-          <h2 class="display-1">Caring for Yourself</h2>
-          <div class="row">
-
-            <div class="col-12 col-md-7 col-lg-8">
-              <p>
-                Caring for yourself means prioritizing your physical, emotional, and mental well-being. Self-care is not a luxury but a necessity for overall health. It involves setting healthy boundaries, recognizing your own needs, and taking intentional steps to recharge
-                and nurture yourself.
-              </p>
-
-              <p>
-                Start with basic habits like ensuring adequate sleep, maintaining a balanced diet, and engaging in regular physical activity. Emotional self-care includes journaling, practicing mindfulness, and allowing yourself to process feelings without judgment.
-                Creating time for hobbies and activities you enjoy can reduce stress and improve mood.
-              </p>
-              <p>
-                It's important to acknowledge when you need help and seek professional support when necessary. Talking to a mental health professional, counselor, or support group can provide guidance and tools to manage stress, anxiety, and other challenges effectively.
-                Remember, self-care also involves learning to say no when overwhelmed and focusing on what truly matters to you.
-              </p>
-            </div>
-
-            <!-- Tips Card -->
-          <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
-            <div class="card">
-              <div class="mh-tips card-body rounded shadow text-start pb-6">
-                <h4 class="card-title">Mental Health Tip</h4>
-                <h6>Set Realistic Goals</h6>
-                <p class="card-text mt-auto text-start my-2 p-0 pb-6">
-                  Setting achievable goals can give you a sense of purpose and accomplishment. Break larger tasks into smaller, manageable steps and celebrate your progress along the way.
+              <div class="col-12 col-md-7 col-lg-8">
+                <p>
+                  Caring for yourself means prioritizing your physical,
+                  emotional, and mental well-being. Self-care is not a luxury
+                  but a necessity for overall health. It involves setting
+                  healthy boundaries, recognizing your own needs, and taking
+                  intentional steps to recharge
+                  and nurture yourself.
                 </p>
-                <br>
-                <a class="btn btn-primary shadow" href="learning.html">Learn
-                  More</a>
-              </div>
-            </div>
-          </div>
 
-              <div class="row caring-cards">
+                <p>
+                  Start with basic habits like ensuring adequate sleep,
+                  maintaining a balanced diet, and engaging in regular physical
+                  activity. Emotional self-care includes journaling, practicing
+                  mindfulness, and allowing yourself to process feelings without
+                  judgment.
+                  Creating time for hobbies and activities you enjoy can reduce
+                  stress and improve mood.
+                </p>
+                <p>
+                  It's important to acknowledge when you need help and seek
+                  professional support when necessary. Talking to a mental
+                  health professional, counselor, or support group can provide
+                  guidance and tools to manage stress, anxiety, and other
+                  challenges effectively.
+                  Remember, self-care also involves learning to say no when
+                  overwhelmed and focusing on what truly matters to you.
+                </p>
+              </div>
+
+              <!-- Tips Card -->
+              <div
+                class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+                <div class="card">
+                  <div class="mh-tips card-body rounded shadow text-start pb-6">
+                    <h4 class="card-title">Mental Health Tip</h4>
+                    <h6>Set Realistic Goals</h6>
+                    <p class="card-text mt-auto text-start my-2 p-0 pb-6">
+                      Setting achievable goals can give you a sense of purpose
+                      and accomplishment. Break larger tasks into smaller,
+                      manageable steps and celebrate your progress along the
+                      way.
+                    </p>
+                    <br>
+                    <a class="btn btn-primary shadow" href="learning.html">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row caring-cards p-0">
                 <div class="col-md-6 col-lg-4 mb-4">
                   <div class="card h-100">
                     <div class="card-header border-0 shadow-sm">
                       <h5 class="card-title pt-2">Mindfulness & Meditation</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Mindfulness and meditation can help you stay grounded and focused. They can also reduce stress and improve your overall mental health.</p>
+                      <p class="card-text">Mindfulness and meditation can help
+                        you stay grounded and focused. They can also reduce
+                        stress and improve your overall mental health.</p>
                     </div>
                   </div>
                 </div>
@@ -181,7 +243,9 @@
                       <h5 class="card-title pt-2">Stay Active</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Regular physical activity can improve your mood and reduce anxiety and depression. It can also help you sleep better and boost your overall health.</p>
+                      <p class="card-text">Regular physical activity can improve
+                        your mood and reduce anxiety and depression. It can also
+                        help you sleep better and boost your overall health.</p>
                     </div>
                   </div>
                 </div>
@@ -192,7 +256,10 @@
                       <h5 class="card-title pt-2">Eat a Balanced Diet</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Eating a healthy, balanced diet can have a positive impact on your mental health. Make sure to include plenty of fruits, vegetables, whole grains, and lean proteins in your diet.
+                      <p class="card-text">Eating a healthy, balanced diet can
+                        have a positive impact on your mental health. Make sure
+                        to include plenty of fruits, vegetables, whole grains,
+                        and lean proteins in your diet.
                       </p>
                     </div>
                   </div>
@@ -204,7 +271,8 @@
                       <h5 class="card-title pt-2">Get Enough Sleep</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Sleep is crucial for your mental and physical health. Aim for 7-9 hours of sleep each night.
+                      <p class="card-text">Sleep is crucial for your mental and
+                        physical health. Aim for 7-9 hours of sleep each night.
                       </p>
                     </div>
                   </div>
@@ -216,7 +284,9 @@
                       <h5 class="card-title pt-2">Connect with Others</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Building and maintaining strong relationships with friends and family can provide emotional support and help you feel connected.</p>
+                      <p class="card-text">Building and maintaining strong
+                        relationships with friends and family can provide
+                        emotional support and help you feel connected.</p>
                     </div>
                   </div>
                 </div>
@@ -227,7 +297,9 @@
                       <h5 class="card-title pt-2">Set Boundaries</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Setting boundaries is an important part of self-care. It involves knowing your limits and being able to say no when necessary.</p>
+                      <p class="card-text">Setting boundaries is an important
+                        part of self-care. It involves knowing your limits and
+                        being able to say no when necessary.</p>
                     </div>
                   </div>
                 </div>
@@ -235,51 +307,71 @@
               </div>
 
               <div class="caring-img shadow rounded-1 p-0 mb-4">
-                <img src="assets/images/suicidal-thoughts.webp" class="card-img-top rounded-1 caring-img" alt="Image depicting caring for others" />
+                <img src="assets/images/suicidal-thoughts.webp"
+                  class="card-img-top rounded-1 caring-img"
+                  alt="Image depicting caring for others">
               </div>
+
             </div>
           </div>
         </div>
+      </section>
 
-      </div>
-    </section>
-
-    <!-- SECTION Caring Others -->
-    <section id="caring-others" class="container text-center d-flex justify-content-between">
-      <div class="row d-flex justify-content-between">
-        <div class="col-12">
-          <h2 class="display-1">Caring for others</h2>
-          <div class="row">
-            <div class="col-12 col-md-7 col-lg-8">
-              <p>
-                Caring for others involves showing empathy, support, and kindness, especially during difficult times. Being present and actively listening to someone’s concerns can make a significant difference in their well-being. Acknowledge their feelings without
-                trying to minimize or fix them, and offer support in ways they find helpful.
-              </p>
-              <p>
-                Small gestures like checking in with a friend, offering to help with daily tasks, or sending a thoughtful message can have a lasting positive impact. Encouraging others to seek professional help when needed is also essential, as mental health challenges
-                often require expert guidance.
-              </p>
-              <p>
-                Boundaries are vital when caring for others. Ensure you are not neglecting your own well-being while supporting those around you. Compassion fatigue can occur when constantly giving emotional energy without replenishing your own. Practicing self-care
-                enables you to be a stronger, more compassionate support system for others.
-              </p>
-            </div>
-
-            <!-- Tips Card -->
-          <div class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
-            <div class="card">
-              <div class="mh-tips card-body rounded shadow text-start pb-6">
-                <h4 class="card-title">Mental Health Tip</h4>
-                <h6>Take Breaks</h6>
-                <p class="card-text mt-auto text-start my-2 p-0">
-                  Taking regular breaks throughout the day can help prevent burnout and reduce stress. Step away from your work or daily routine to relax and recharge, even if it's just for a few minutes.
+      <!-- SECTION Caring Others -->
+      <section id="caring-others"
+        class="container text-center d-flex justify-content-between">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12">
+            <h2 class="display-1">Caring for others</h2>
+            <div class="row">
+              <div class="col-12 col-md-7 col-lg-8">
+                <p>
+                  Caring for others involves showing empathy, support, and
+                  kindness, especially during difficult times. Being present and
+                  actively listening to someone’s concerns can make a
+                  significant difference in their well-being. Acknowledge their
+                  feelings without
+                  trying to minimize or fix them, and offer support in ways they
+                  find helpful.
                 </p>
-                <br>
-                <a class="btn btn-primary shadow" href="learning.html">Learn
-                  More</a>
+                <p>
+                  Small gestures like checking in with a friend, offering to
+                  help with daily tasks, or sending a thoughtful message can
+                  have a lasting positive impact. Encouraging others to seek
+                  professional help when needed is also essential, as mental
+                  health challenges
+                  often require expert guidance.
+                </p>
+                <p>
+                  Boundaries are vital when caring for others. Ensure you are
+                  not neglecting your own well-being while supporting those
+                  around you. Compassion fatigue can occur when constantly
+                  giving emotional energy without replenishing your own.
+                  Practicing self-care
+                  enables you to be a stronger, more compassionate support
+                  system for others.
+                </p>
               </div>
-            </div>
-          </div>
+
+              <!-- Tips Card -->
+              <div
+                class="col-12 col-md-5 col-lg-4 bg-transparent xp-0 border-0">
+                <div class="card">
+                  <div class="mh-tips card-body rounded shadow text-start pb-6">
+                    <h4 class="card-title">Mental Health Tip</h4>
+                    <h6>Take Breaks</h6>
+                    <p class="card-text mt-auto text-start my-2 p-0">
+                      Taking regular breaks throughout the day can help prevent
+                      burnout and reduce stress. Step away from your work or
+                      daily routine to relax and recharge, even if it's just for
+                      a few minutes.
+                    </p>
+                    <br>
+                    <a class="btn btn-primary shadow" href="learning.html">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
 
               <!-- Cards -->
               <div class="row caring-cards">
@@ -290,7 +382,10 @@
                       <h5 class="card-title pt-2">Listen Without Judgment</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">When someone opens up about their mental health, listen to them without interrupting or judging. Let them share their feelings and experiences at their own pace.
+                      <p class="card-text">When someone opens up about their
+                        mental health, listen to them without interrupting or
+                        judging. Let them share their feelings and experiences
+                        at their own pace.
                       </p>
                     </div>
                   </div>
@@ -299,10 +394,14 @@
                 <div class="col-md-6 col-lg-4 mb-4">
                   <div class="card h-100">
                     <div class="card-header border-0 shadow-sm">
-                      <h5 class="card-title pt-2">Encourage Professional Help</h5>
+                      <h5 class="card-title pt-2">Encourage Professional
+                        Help</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Encourage your loved one to seek professional help from a therapist, counselor, or doctor. Offer to help them find resources or accompany them to appointments if they feel comfortable.</p>
+                      <p class="card-text">Encourage your loved one to seek
+                        professional help from a therapist, counselor, or
+                        doctor. Offer to help them find resources or accompany
+                        them to appointments if they feel comfortable.</p>
                     </div>
                   </div>
                 </div>
@@ -313,7 +412,11 @@
                       <h5 class="card-title pt-2">Educate Yourself</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Learn about the specific mental health condition your loved one is experiencing. Understanding their condition can help you provide better support and reduce any misconceptions you may have.</p>
+                      <p class="card-text">Learn about the specific mental
+                        health condition your loved one is experiencing.
+                        Understanding their condition can help you provide
+                        better support and reduce any misconceptions you may
+                        have.</p>
                     </div>
                   </div>
                 </div>
@@ -321,10 +424,14 @@
                 <div class="col-md-6 col-lg-4 mb-4">
                   <div class="card h-100">
                     <div class="card-header border-0 shadow-sm">
-                      <h5 class="card-title pt-2">Be Patient and Understanding</h5>
+                      <h5 class="card-title pt-2">Be Patient and
+                        Understanding</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Recovery from mental health issues can take time, and there may be setbacks along the way. Be patient and understanding, and avoid putting pressure on your loved one to "get better" quickly.</p>
+                      <p class="card-text">Recovery from mental health issues
+                        can take time, and there may be setbacks along the way.
+                        Be patient and understanding, and avoid putting pressure
+                        on your loved one to "get better" quickly.</p>
                     </div>
                   </div>
                 </div>
@@ -335,7 +442,10 @@
                       <h5 class="card-title pt-2">Encourage Healthy Habits</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Encourage your loved one to engage in healthy habits such as regular exercise, a balanced diet, and sufficient sleep. These habits can have a positive impact on their mental health.</p>
+                      <p class="card-text">Encourage your loved one to engage in
+                        healthy habits such as regular exercise, a balanced
+                        diet, and sufficient sleep. These habits can have a
+                        positive impact on their mental health.</p>
                     </div>
                   </div>
                 </div>
@@ -346,186 +456,204 @@
                       <h5 class="card-title pt-2">Respect Their Boundaries</h5>
                     </div>
                     <div class="card-body">
-                      <p class="card-text">Respect your loved one's boundaries and give them space when they need it. Avoid pushing them to talk or engage in activities if they are not ready.</p>
+                      <p class="card-text">Respect your loved one's boundaries
+                        and give them space when they need it. Avoid pushing
+                        them to talk or engage in activities if they are not
+                        ready.</p>
                     </div>
                   </div>
                 </div>
+
               </div>
-
-
 
               <div class="caring-img p-0 shadow rounded-1">
-                <img src="assets/images/helping-loved-one.webp" class="card-img-top rounded-1 caring-img" alt="Image depicting self care">
+                <img src="assets/images/helping-loved-one.webp"
+                  class="card-img-top rounded-1 caring-img"
+                  alt="Image depicting self care">
               </div>
+
             </div>
           </div>
-          <!-- </div> -->
-
-          <!-- </div> -->
-
 
           <div class="col-12 my-4">
             <h4>Conclusion</h4>
             <p>
-              Caring for yourself and others is a continuous process that requires balance, empathy, and self-awareness. By nurturing your own well-being and offering support to those around you, you contribute to a healthier, more connected community. Remember, taking
+              Caring for yourself and others is a continuous process that
+              requires balance, empathy, and self-awareness. By nurturing your
+              own well-being and offering support to those around you, you
+              contribute to a healthier, more connected community. Remember,
+              taking
               care of yourself empowers you to care for others more effectively.
             </p>
           </div>
-          <!-- </div> -->
+
         </div>
-      </div>
-      <!-- End -->
-      </div>
-    </section>
+        <!-- </div> -->
+      </section>
 
-  </main>
-  <!-- FOOTER Contact -->
-  <footer id="footer" class="col-12 mt-auto">
-        <div class="row text-center d-flex gx-5 justify-content-evenly ">
+    </main>
+    <!-- FOOTER Contact -->
+    <footer id="footer" class="col-12 mt-auto">
+      <div class="row text-center d-flex gx-5 justify-content-evenly ">
 
-          <div class="col-12">
-            <h3 class="display-4">Contact us!</h3>
-            <h4 class="text-black">Every Mind Matters</h4>
+        <div class="col-12">
+          <h3 class="display-4">Contact us!</h3>
+          <h4 class="text-black">Every Mind Matters</h4>
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary shadow mb-2 mt-4"
-              data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Contact us
-            </button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary shadow mb-2 mt-4"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contact us
+          </button>
 
-            <!-- Modal -->
-            <div class="modal" id="exampleModal" tabindex="-1"
-              aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content rounded-1 border-0 shadow-lg">
-                  <div class="modal-header rounded-1 border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact
-                      us!</h1>
-                    <button type="button" class="btn-close"
-                      data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body card-body">
-                    <form id="contact-form" action="success.html" method="GET">
-                      <div class="row text-start">
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input class="form-control shadow" id="name"
-                            name="name"
-                            type="text" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="email" class="form-label">Email</label>
-                          <input class="form-control shadow" id="email"
-                            name="email" type="email" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="phone" class="form-label">Phone
-                            number</label>
-                          <input class="form-control shadow" id="phone"
-                            name="phone" type="tel" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="event-type" class="form-label">
-                            Reason</label>
-                          <select id="event-type"
-                            class="form-select shadow border-0" required>
-                            <option value selected>Select</option>
-                            <option value="general information">General
-                              Information</option>
-                            <option value="care-other">Caring for
-                              Others</option>
-                            <option value="care-self">Self-Care</option>
-                            <option value="booking">Bookings</option>
-
-                          </select>
-                        </div>
-                        <div class="col-12 mb-3">
-                          <label for="message"
-                            class="form-label">Message</label>
-                          <textarea class="form-control  p-2 shadow"
-                            rows="6"
-                            id="message" name="message" required></textarea>
-                        </div>
-                      </div>
-
-                      <div class="modal-footer border-top-0">
-                        <button type="button" class="btn btn-secondary shadow"
-                          data-bs-dismiss="modal">Close</button>
-                        <button type="submit"
-                          class="btn btn-primary shadow">Submit</button>
-                      </div>
-                    </form>
-                  </div>
-
+          <!-- Modal -->
+          <div class="modal" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content rounded-1 border-0 shadow-lg">
+                <div class="modal-header rounded-1 border-0">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Contact
+                    us!</h1>
+                  <button type="button" class="btn-close"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body card-body">
+                  <form id="contact-form" action="success.html" method="GET">
+                    <div class="row text-start">
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input class="form-control shadow" id="name"
+                          name="name"
+                          type="text" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input class="form-control shadow" id="email"
+                          name="email" type="email" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="phone" class="form-label">Phone
+                          number</label>
+                        <input class="form-control shadow" id="phone"
+                          name="phone" type="tel" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                        <label for="event-type" class="form-label">
+                          Reason</label>
+                        <select id="event-type"
+                          class="form-select shadow border-0" required>
+                          <option value selected>Select</option>
+                          <option value="general information">General
+                            Information</option>
+                          <option value="care-other">Caring for
+                            Others</option>
+                          <option value="care-self">Self-Care</option>
+                          <option value="booking">Bookings</option>
+
+                        </select>
+                      </div>
+                      <div class="col-12 mb-3">
+                        <label for="message"
+                          class="form-label">Message</label>
+                        <textarea class="form-control  p-2 shadow"
+                          rows="6"
+                          id="message" name="message" required></textarea>
+                      </div>
+                    </div>
+
+                    <div class="modal-footer border-top-0">
+                      <button type="button" class="btn btn-secondary shadow"
+                        data-bs-dismiss="modal">Close</button>
+                      <button type="submit"
+                        class="btn btn-primary shadow">Submit</button>
+                    </div>
+                  </form>
+                </div>
+
               </div>
             </div>
           </div>
-          <!-- </div> -->
+        </div>
 
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
           <div
-            class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
-            <div
-              class="quick-links justify-content-center ms-6 text-start">
-              <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
-              <a href="https://www.google.com/"><i
-                  class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br>
-              <a href><i class="fa-solid fa-book-medical"></i> Explore mental
-                health</a><br>
-              <a href><i class="fa-regular fa-newspaper"></i>
-                Publications</a><br>
-              <a href><i class="fa-solid fa-hospital"></i> NHS Mental
-                Health</a><br>
-              <a href="https://ourworldindata.org/mental-health">
-                <i class="fa-solid fa-chart-simple"></i> Mental healthData
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center">
-            <div
-              class=" quick-links  justify-content-center">
-
-              <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
-              <a href><i
-                  class="fa-solid fa-at"></i> john.smith@email.com</a><br>
-              <a href><i class="fa-solid fa-phone"></i> 01234 567 899</a><br>
-              <a href><i class="fa-brands fa-facebook"></i> Facebook</a><br>
-              <a href><i class="fa-brands fa-twitter"></i> Twitter</a><br>
-              <a href><i class="fa-brands fa-instagram"></i> Instagram</a><br>
-            </div>
-          </div>
-
-          <div
-            class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center"
-            style="padding: 0 !important;">
-            <div
-              class="quick-links  justify-content-center">
-              <h5><i class="fa-solid fa-map-location"></i> About us</h5>
-              <address>
-                <p>
-                  69,345 Pavement Street<br>
-                  Brick town<br>
-                  Concrete County<br>
-                  PO13 37AP
-                </p>
-                <a href="https://www.google.com/"><i
-                    class="fa-solid fa-map-pin"></i> Google Maps Link</a>
-              </address>
-            </div>
+            class="quick-links justify-content-center ms-6 text-start">
+            <h5><i class="fa-solid fa-link"></i> Quick Links</h5>
+            <a href="https://www.google.com/" target="_blank"
+              rel="noopener noreferrer"><i
+                class="fa-solid fa-hand-holding-heart"></i> Get Help</a><br>
+            <a href="https://www.mentalhealth.org.uk/explore-mental-health"
+              target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-book-medical"></i> Explore mental
+              health</a><br>
+            <a href="https://www.centreformentalhealth.org.uk/publications/"
+              target="_blank" rel="noopener noreferrer"><i
+                class="fa-regular fa-newspaper"></i> Publications</a><br>
+            <a href="https://www.nhs.uk/mental-health/" target="_blank"
+              rel="noopener noreferrer"><i class="fa-solid fa-hospital"></i>
+              NHS Mental Health</a><br>
+            <a href="https://ourworldindata.org/mental-health" target="_blank"
+              rel="noopener noreferrer"><i
+                class="fa-solid fa-chart-simple"></i> Mental health Data
+            </a>
           </div>
         </div>
 
-      </footer>
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center">
+          <div
+            class=" quick-links  justify-content-center">
+            <h5><i class="fa-solid fa-hashtag"></i> Social Media</h5>
+            <a href="mailto:john.smith@email.com">Email John Smith</a><br>
+            <a href="tel:+01234567899" target="_blank"
+              rel="noopener noreferrer"><i class="fa-solid fa-phone"></i>
+              01234 567 899</a><br>
+            <a href="https://www.facebook.com/" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i>
+              Facebook</a><br>
+            <a href="https://x.com/?lang=en&mx=2" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i>
+              Twitter</a><br>
+            <a href="https://www.instagram.com/" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i>
+              Instagram</a><br>
+          </div>
+        </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- Font Awesome kit -->
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-  <!-- Custom JS -->
-  <script src="assets/js/scripts.js"></script>
+        <div
+          class="col-12 col-md-4 col-lg-3 d-flex text-start justify-content-center"
+          style="padding: 0 !important;">
+          <div
+            class="quick-links  justify-content-center">
+            <h5><i class="fa-solid fa-map-location"></i> About us</h5>
+            <address>
+              <p>
+                69,345 Pavement Street<br>
+                Brick town<br>
+                Concrete County<br>
+                PO13 37AP
+              </p>
+              <a href="https://www.google.com/">
+                <i class="fa-solid fa-map-pin"></i> Google Maps Link</a>
+            </address>
+          </div>
+        </div>
 
-</body>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/aa9af45995.js"
+      crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/scripts.js"></script>
+
+  </body>
 
 </html>

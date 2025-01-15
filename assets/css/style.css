@@ -381,6 +381,7 @@ section {
   transition: 0.3s ease-in-out;
   transition: inset 0.3s ease-in-out;
   border: 0;
+  background-color: var(--fg-color);
 }
 
 #testimonials input:hover,

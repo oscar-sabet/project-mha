@@ -8,10 +8,11 @@ Website project by Oscar Sabet
 2. [Planning](#planning)
 3. [Development](#development)
 4. [Testing](#testing)
-5. [Site Contents](#contents)
-6. [Repository & Project Board](#repository)
-7. [Sources](#sources)
-8. [Full Screenshots](#screenshots)
+5. [Features](#features)
+6. [Site Contents](#contents)
+7. [Repository & Project Board](#repository)
+8. [Sources](#sources)
+9. [Full Screenshots](#screenshots)
 
 ## Introduction
 
@@ -76,9 +77,48 @@ The website was thoroughly tested before completion.
 - All links work and external links open in a new tab
 - Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
 
+**Finish**
+
+95% on google lighthouse
+
 ### Known Bugs
 
 **FILL ME**
+
+## features
+
+The website has many features like displaying mental health tips throughout the site.
+
+- Navigation bar
+  - Responsive with all form factors
+  - Has links to all pages
+  - Has a dropdown menu for navigation within pages
+  - Has a button for to toggle dark mode which is persistent across pages
+- Header
+  - Fixed position with the page scrolling over it
+  - There is a typewriter effect implemented using javascript
+- Footer
+  - Has 3 columns of links, one for external links, another for social media and for the address
+  - The footer is fixed to the the bottom of the page using mt-auto
+  - The footer contains a contact us button which opens a modal form
+- Home Page
+  - 4 sections with a brief description of each page
+  - The first section has 4 cards which describe the 4 sections on the learning page and have a button that links to the Relevant section
+  - The testimonials section has a description of the page and a profile card from a testimonial which links to the page
+  - The caring section has 2 images with overlays and a button which links to relevant section of the caring page
+  - The statistics section brief descriptions with images which link to the relevant section
+- Learning Page
+   -Has a tabbed layout to keep the page organized and easy to navigate
+   -The first tab has responsive cards
+   -The other tabs have an accordion to keep information organized and avoid overwhelming users
+ -Testimonials Page
+   -Has a button with a pop-up modal form to share your own testimony 
+   -Has four cards with a profile of the left and the testimony on the right
+ -Caring page
+   -Has two sections with an introduction, one for self-care and one for caring for others
+   -Each section has responsive cards and image with a zoom effect on hover
+ -Statistics
+  - Has two sections, a brief article and some interactive graphs which are embedded from "ourworldindata"
 
 ## Contents
 
