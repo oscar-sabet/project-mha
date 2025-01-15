@@ -454,9 +454,11 @@ section {
   background-color: var(--hl-color-dark);
   color: var(--fg-color);
   padding: 3rem;
-  z-index: 9998;
+  /* z-index: 9998; */
 }
-
+footer {
+  z-index: 2;
+}
 #footer a {
   color: var(--fg-color);
   transition: 0.2s ease-in-out;
