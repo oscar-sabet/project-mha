@@ -82,11 +82,12 @@ The website was thoroughly tested before completion.
 ### Validation
 
 - Pass W3s HTML Validator with no errors/warnings
-- 95% on google lighthouse
+- Pass CSS validator with no errors/warnings
+- Score 95% on google lighthouse
 
 ### Known Bugs
 
-**FILL ME**
+There are issues caused by the header using z-index which is interfering with bootstrap classes for the modals. A workaround was used 
 
 ## features
 

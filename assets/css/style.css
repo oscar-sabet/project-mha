@@ -201,7 +201,7 @@ a {
 #header {
   background-color: var(--hl-color);
   background: url('../images/wp10945479.webp') no-repeat center center / cover;
-  padding: 0 0;
+  padding: 56px 0 0;
   position: fixed;
   height: calc(100vh / 2 - 56px);
   width: 100vw;
@@ -460,6 +460,17 @@ section {
 .tab-content {
   border: 2px solid var(--hl-color);
   margin-top: 0px;
+}
+
+/* Success Page */
+#success {
+  height: calc(100vh - 432px);
+}
+#success .btn {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  left: 10px;
 }
 
 /* FOOTER */
