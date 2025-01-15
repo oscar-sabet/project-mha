@@ -32,16 +32,17 @@ The main users are expected to be people who are seeking information and guidanc
 
 ### User Stories
 
-- As a visitor, I want to access the website on my mobile device, so that I can get information on the go.
+- As a businessman, I want to access the website on my mobile device, so that I can get information on the go.
 - As a visitor, I want to find resources for self-care, so that I can take steps to improve my own mental health.
-- As a visitor, I want to learn about mental health, so that I can better understand mental health issues.
-- As a visitor, I want to find contact information for mental health services, so that I can seek help if needed.
-- As a visitor, I want to read personal stories and testimonials, so that I can feel connected and less alone in my experiences.
-- As a visitor, I want to find information on how to support someone with mental health issues, so that I can help my loved ones.
+- As a parent, I want to learn about mental health, so that I can better understand mental health issues.
+- As a public servant, I want to find contact information for mental health services, so that I can seek help if needed.
+- As a patient, I want to read personal stories and testimonials, so that I can feel connected and less alone in my experiences.
+- As a husband/wife, I want to find information on how to support someone with mental health issues, so that I can help my loved ones.
+- As a gas-lighter, I am looking for extensive resources on mental health conditions to help hone my craft
 
 ### Project board
 
-A project board was used during development. 
+A project board was used during development.
 
 [Github Project Board](https://github.com/users/oscar-sabet/projects/2)
 
@@ -76,10 +77,12 @@ The website was thoroughly tested before completion.
 - check site with W3S HTML/CSS validator
 - All links work and external links open in a new tab
 - Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
+- Manually test hosted site
 
-**Finish**
+### Validation
 
-95% on google lighthouse
+- Pass W3s HTML Validator with no errors/warnings
+- 95% on google lighthouse
 
 ### Known Bugs
 
@@ -99,7 +102,7 @@ The website has many features like displaying mental health tips throughout the 
   - There is a typewriter effect implemented using javascript
 - Footer
   - Has 3 columns of links, one for external links, another for social media and for the address
-  - The footer is fixed to the the bottom of the page using mt-auto
+  - The footer is always at the the bottom of the page using mt-auto
   - The footer contains a contact us button which opens a modal form
 - Home Page
   - 4 sections with a brief description of each page

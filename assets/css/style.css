@@ -74,7 +74,9 @@ body {
   margin-top: calc(100vh / 2 - 56px);
   z-index: 2;
 }
-
+body {
+  padding: 0 !important;
+}
 body .main-page {
   background-color: var(--fg-color);
   color: var(--near-black);
@@ -199,9 +201,8 @@ a {
 #header {
   background-color: var(--hl-color);
   background: url('../images/wp10945479.webp') no-repeat center center / cover;
-  padding: 0rem 0;
+  padding: 0 0;
   position: fixed;
-  /* padding-top: 40px; */
   height: calc(100vh / 2 - 56px);
   width: 100vw;
   display: flex;
@@ -274,10 +275,6 @@ section {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* .accordion-button::after {
-  color: var(--hl-color-dark);
-  background-color: var(--card-bg);
-} */
 
 .accordion button {
   background-color: var(--card-bg);
@@ -287,7 +284,7 @@ section {
   background-color: var(--card-bg);
   color: var(--card-fg);
 }
-/* Styles the little button the end. Replaces the default bootstrap one completely */
+/* Styles the little button at the end. Replaces the default bootstrap one completely */
 .accordion-button:not(.collapsed)::after {
   content: ' ^ ';
   font-size: 1.5rem;
@@ -357,9 +354,9 @@ section {
 
 /* Testimonials */
 
-#testimonials div div.row {
+/* #testimonials div div.row {
   padding-top: 40px !important;
-}
+} */
 #testimonials .btn {
   position: relative;
   bottom: 10px;
@@ -531,9 +528,20 @@ footer {
 }
 
 /* Modal */
-
-#footer .modal {
-  z-index: 9998;
+.modal-backdrop {
+  z-index: -1;
+  padding: 0;
+}
+.modal-title {
+  padding: 0;
+}
+.modal-dialog {
+  z-index: 4 !important;
+}
+.modal {
+  padding-top: 46px;
+  z-index: auto;
+  caret-color: auto;
 }
 
 #footer .modal,
@@ -569,13 +577,13 @@ footer {
 #footer input:hover,
 #footer select:hover,
 #footer textarea:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.15) !important;
 }
 
 #footer input:focus,
 #footer select:focus,
 #footer textarea:focus {
-  box-shadow: 0 0.1rem 0.3rem var(--hl-color) !important;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.15) !important;
 }
 /* DARK MODE */
 body.dark-mode {
