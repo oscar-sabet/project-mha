@@ -641,3 +641,21 @@ body.dark-mode {
 
 @media screen and (min-width: 1200px) {
 }
+
+/* TEST */
+/* #learn {
+  background-color: var(--hl-color);
+  height: calc(100vh / 2);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+  padding: 1rem;
+}
+#header .card {
+  color: var(--fg-color);
+} */

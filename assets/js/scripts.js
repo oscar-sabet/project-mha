@@ -5,9 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const mainElements = document.getElementsByClassName('main-page')
   const cardBodies = document.getElementsByClassName('card-body')
   const accordionButtons = document.getElementsByClassName('accordion-button')
-
-  // Check stored preference and apply dark mode if needed
   const darkMode = localStorage.getItem('darkMode')
+
   if (darkMode === 'enabled') {
     body.setAttribute('data-bs-theme', 'dark')
     toggleButton.textContent = 'Disable Dark Mode'
@@ -56,19 +55,24 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 })
 
-// Typing Effect
+// Typing effect for hero section
 const textElement = document.getElementById('hero-h2')
 const text = 'Every Mind Matters'
 let index = 0
 
 function typeEffect () {
+  // Clear the content of the hero-h2 element before starting the typing effect
+  if (index === 0) {
+    textElement.textContent = ''
+  }
+
   if (index < text.length) {
     textElement.textContent += text[index]
     index++
     setTimeout(typeEffect, 100) // Control typing speed
   }
 }
-
+//Start the typing effect
 typeEffect()
 
 // Smooth Scroll

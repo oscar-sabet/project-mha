@@ -88,15 +88,37 @@ The website was thoroughly tested before completion.
 - Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
 - Manually test hosted site
 
+### Test Log
+
+A few tests are logged of some key features of the site but ideally more thorough tests will have been logged.
+
+| Test | Description | Expected Result | Actual Result | Pass |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 1. | Test dark mode switch  | When the button is pressed the page switches to dark mode and no elements are left with the old style | The page changed with no unstyled elements | PASS |
+| 2. | Form validation -> Contact us form | when the user submits a form, all fields will check that the field is not empty and that appropriate data has been input by the user. | All fields require that the user has input a relevant data type into the field | PASS |
+| 3. | In-page navigation -> home page -> statistics section | When the "navigate page" button is pressed it open a dropdown menu with links to the sections of the home page and when statistics is pressed it should scroll the page to the relevant section | When the link is activated it scrolls the page to the relevant section | PASS |  
+
 ### Validation
 
-- Pass W3s HTML Validator with no errors/warnings
-- Pass CSS validator with no errors/warnings
-- Score 95% on google lighthouse
+Pass W3s HTML Validator with no errors/warnings
+
+![HTML Validation](assets/images/readme/html-validator.png)
+
+Pass CSS validator with no errors/warnings
+
+![CSS Validator](assets/images/readme/css-validator.png)
+
+Pass JS validator with no errors/warnings (pointless honestly, but why not)
+
+![JS Validator](assets/images/readme/js-validator.png)
+
+Score 94% on google lighthouse
+
+![Lighthouse Report](assets/images/readme/Lighthouse-validator.png)
 
 ### Known Bugs
 
-There are issues caused by the header using z-index which is interfering with bootstrap classes for the modals. A workaround was used 
+There are issues caused by the header using z-index which is interfering with bootstrap classes for the modals. A workaround was used by hiding the translucent backdrop.
 
 ## features
 
@@ -121,16 +143,16 @@ The website has many features like displaying mental health tips throughout the 
   - The caring section has 2 images with overlays and a button which links to relevant section of the caring page
   - The statistics section brief descriptions with images which link to the relevant section
 - Learning Page
-   -Has a tabbed layout to keep the page organized and easy to navigate
-   -The first tab has responsive cards
-   -The other tabs have an accordion to keep information organized and avoid overwhelming users
- -Testimonials Page
-   -Has a button with a pop-up modal form to share your own testimony 
-   -Has four cards with a profile of the left and the testimony on the right
- -Caring page
-   -Has two sections with an introduction, one for self-care and one for caring for others
-   -Each section has responsive cards and image with a zoom effect on hover
- -Statistics
+  - Has a tabbed layout to keep the page organized and easy to navigate
+  - The first tab has responsive cards
+  - The other tabs have an accordion to keep information organized and avoid overwhelming users
+- Testimonials Page
+  - Has a button with a pop-up modal form to share your own testimony 
+  - Has four cards with a profile of the left and the testimony on the right
+  - Caring page
+  - Has two sections with an introduction, one for self-care and one for caring for others
+  - Each section has responsive cards and image with a zoom effect on hover
+- Statistics
   - Has two sections, a brief article and some interactive graphs which are embedded from "ourworldindata"
 
 ## Contents
