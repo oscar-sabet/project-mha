@@ -90,13 +90,14 @@ The website was thoroughly tested before completion.
 
 ### Test Log
 
-A few tests are logged of some key features of the site but ideally more thorough tests will have been logged.
+A few tests are logged of some key features of the site but ideally more thorough tests will have been logged. This is due to time constraints to have a MVP.
 
 | Test | Description | Expected Result | Actual Result | Pass |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 1. | Test dark mode switch  | When the button is pressed the page switches to dark mode and no elements are left with the old style | The page changed with no unstyled elements | PASS |
-| 2. | Form validation -> Contact us form | when the user submits a form, all fields will check that the field is not empty and that appropriate data has been input by the user. | All fields require that the user has input a relevant data type into the field | PASS |
-| 3. | In-page navigation -> home page -> statistics section | When the "navigate page" button is pressed it open a dropdown menu with links to the sections of the home page and when statistics is pressed it should scroll the page to the relevant section | When the link is activated it scrolls the page to the relevant section | PASS |  
+| 2. | Form validation-> Contact us form | when the user submits a form, all fields will check that the field is not empty and that appropriate data has been input by the user. | All fields require that the user has input a relevant data type into the field | PASS |
+| 3. | In-page navigation-> home page-> statistics section | When the "navigate page" button is pressed it open a dropdown menu with links to the sections of the home page and when statistics is pressed it should scroll the page to the relevant section | When the link is activated it scrolls the page to the relevant section | PASS |  
+| 4. | Navbar-> learning link | when clicked will navigate the user to the learning page within the same tab | The link navigates the user to the learning page within the same tab | PASS |
 
 ### Validation
 
@@ -108,7 +109,7 @@ Pass CSS validator with no errors/warnings
 
 ![CSS Validator](assets/images/readme/css-validator.png)
 
-Pass JS validator with no errors/warnings (pointless honestly, but why not)
+Pass JS validator with no errors/warnings (pointless honestly, but why not?)
 
 ![JS Validator](assets/images/readme/js-validator.png)
 
@@ -128,7 +129,7 @@ The website has many features like displaying mental health tips throughout the 
   - Responsive with all form factors
   - Has links to all pages
   - Has a dropdown menu for navigation within pages
-  - Has a button for to toggle dark mode which is persistent across pages
+  - Has a button  to toggle dark mode which is persistent across pages
 - Header
   - Fixed position with the page scrolling over it
   - There is a typewriter effect implemented using javascript
@@ -219,7 +220,7 @@ The statistics page contains a brief article followed by interactive graphs.
 
 ![The statistics page - desktop view](assets/images/readme/desktop-statistics.png)
 
-# Repository
+## Repository
 
 The Github repo can be found here.
 

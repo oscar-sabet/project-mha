@@ -61,7 +61,7 @@ const text = 'Every Mind Matters'
 let index = 0
 
 function typeEffect () {
-  // Clear the content of the hero-h2 element before starting the typing effect
+  // Removes any existing text
   if (index === 0) {
     textElement.textContent = ''
   }
@@ -75,7 +75,7 @@ function typeEffect () {
 //Start the typing effect
 typeEffect()
 
-// Smooth Scroll
+// Adds the smooth Scroll effect
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault()
