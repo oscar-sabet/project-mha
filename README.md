@@ -232,7 +232,7 @@ The project Board can be found here.
 
 ## sources
 
-All code was either coded by me or some by an AI. The content of the site is 100% AI generated.
+All code was either coded by me or some by an AI. The content of the site is 100% AI generated except the graphs on the statistics page which is embedded from "our world in data" website.
 
 ## screenshots
 
